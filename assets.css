@@ -439,14 +439,14 @@ code {
 
 /* SIDEBAR */
 #sidebar {
-  background: #191919;
-  color: #fff;
+  background: #fff;
+  color: #000;
   float: left;  
   height: 100%;
   overflow: auto;
   position: fixed;
   top: 0;
-  width: 240px;
+  width: 300px;
 }
 
 #sidebar h1 {
