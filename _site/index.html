@@ -1,0 +1,4728 @@
+<!DOCTYPE html>
+<head>
+  <title>AIMonitor</title>
+  <meta charset='utf-8'/>
+  <meta name='description' content='Documentation website'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+  <link href='assets.css' rel='stylesheet' type='text/css'>
+</head>
+<body>  
+  <nav id='sidebar'>
+	<h1>AIMonitor</h1>
+<ul id='links'>
+  
+    
+    <li><a href='#/introduction'>Introduction</a></li>
+    
+  
+    
+    <li><a href='#/semantic-segmentation'>Semantic Segmentation</a></li>
+    
+  
+    
+    <li><a href='#/image-classification'>Image Classification</a></li>
+    
+  
+    
+    <li><a href='#/object-detection'>Object Detection</a></li>
+    
+  
+    
+    <li><a href='#/question-answering'>Question Answering</a></li>
+    
+  
+    
+    <li><a href='#/image-generation'>Image Generation</a></li>
+    
+  
+    
+    <li><a href='#/image-to-image-translation'>Image To Image Translation</a></li>
+    
+  
+    
+    <li><a href='#/pose-estimation'>Pose Estimation</a></li>
+    
+  
+    
+    <li><a href='#/super-resolution'>Super Resolution</a></li>
+    
+  
+    
+    <li><a href='#/image-super-resolution'>Image Super Resolution</a></li>
+    
+  
+    
+    <li><a href='#/face-recognition'>Face Recognition</a></li>
+    
+  
+    
+    <li><a href='#/image-retrieval'>Image Retrieval</a></li>
+    
+  
+    
+    <li><a href='#/action-recognition'>Action Recognition</a></li>
+    
+  
+    
+    <li><a href='#/visual-question-answering'>Visual Question Answering</a></li>
+    
+  
+    
+    <li><a href='#/optical-flow-estimation'>Optical Flow Estimation</a></li>
+    
+  
+    
+    <li><a href='#/person-re-identification'>Person Re Identification</a></li>
+    
+  
+    
+    <li><a href='#/continuous-control'>Continuous Control</a></li>
+    
+  
+    
+    <li><a href='#/machine-translation'>Machine Translation</a></li>
+    
+  
+    
+    <li><a href='#/language-modelling'>Language Modelling</a></li>
+    
+  
+    
+    <li><a href='#/sentiment-analysis'>Sentiment Analysis</a></li>
+    
+  
+    
+    <li><a href='#/text-classification'>Text Classification</a></li>
+    
+  
+    
+    <li><a href='#/document-classification'>Document Classification</a></li>
+    
+  
+    
+    <li><a href='#/text-generation'>Text Generation</a></li>
+    
+  
+    
+    <li><a href='#/natural-language-inference'>Natural Language Inference</a></li>
+    
+  
+    
+    <li><a href='#/named-entity-recognition-ner'>Named Entity Recognition NER</a></li>
+    
+  
+    
+    <li><a href='#/dependency-parsing'>Dependency Parsing</a></li>
+    
+  
+    
+    <li><a href='#/semantic-textual-similarity'>Semantic Textual Similarity</a></li>
+    
+  
+    
+    <li><a href='#/relation-extraction'>Relation Extraction</a></li>
+    
+  
+    
+    <li><a href='#/part-of-speech-tagging'>Part Of Speech Tagging</a></li>
+    
+  
+    
+    <li><a href='#/transfer-learning'>Transfer Learning</a></li>
+    
+  
+    
+    <li><a href='#/multi-task-learning'>Multi Task Learning</a></li>
+    
+  
+    
+    <li><a href='#/domain-adaptation'>Domain Adaptation</a></li>
+    
+  
+    
+    <li><a href='#/quantization'>Quantization</a></li>
+    
+  
+    
+    <li><a href='#/metric-learning'>Metric Learning</a></li>
+    
+  
+    
+    <li><a href='#/architecture-search'>Architecture Search</a></li>
+    
+  
+    
+    <li><a href='#/recommendation-systems'>Recommendation Systems</a></li>
+    
+  
+    
+    <li><a href='#/speech-recognition'>Speech Recognition</a></li>
+    
+  
+    
+    <li><a href='#/atari-games'>Atari Games</a></li>
+    
+  
+    
+    <li><a href='#/link-prediction'>Link Prediction</a></li>
+    
+  
+    
+    <li><a href='#/node-classification'>Node Classification</a></li>
+    
+  
+  
+</ul>
+</nav>
+
+<section id='content'>
+
+  <article class=''>
+  <a name='/introduction' href='#/introduction'><h2>Introduction</h2></a>
+  <section class='body'>
+      <p>This is part of WUS’s efforts on applying AI in Urban Planning.</p>
+
+<p>We are tracking AI progress by looking at performance improvements on benchmark datasets. They are organized by subtasks from main areas of ML, including <span style="color:#FFB300;font-weight:bold">COMPUTER_VISION</span>, <span style="color:#803E75;font-weight:bold">NATURAL_LANGUAGE_PROCESSING</span>, <span style="color:#A6BDD7;font-weight:bold">METHODOLOGY</span>, <span style="color:#C10020;font-weight:bold">MISCELLANEOUS</span>, <span style="color:#CEA262;font-weight:bold">SPEECH</span>, <span style="color:#817066;font-weight:bold">PLAYING_GAMES</span> and <span style="color:#007D34;font-weight:bold">GRAPHS</span>, each one elaborates corresponding datasets, also paper and code that acheved best preformance.</p>
+
+<p>Some data are from <a href="https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems">RedditSota</a>, <a href="https://github.com/AI-metrics/AI-metrics">EFF AI metrics</a> and etc. This website would be updated weekly. Have fun.</p>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/semantic-segmentation' href='#/semantic-segmentation'><h2><code><b>COMPUTER_VISION</b></code> Semantic Segmentation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-semantic-segmentation">State Of The Art in Semantic Segmentation</h3>
+
+<h3 id="pascal-voc-2012">PASCAL VOC 2012</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1802.02611v3.pdf">ECCV 2018 Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/deeplab">DeepLabv3+ (Xception-JFT)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-16</p>
+  </li>
+</ul>
+
+<h3 id="cityscapes">Cityscapes</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1802.02611v3.pdf">ECCV 2018 Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/deeplab">DeepLabv3+ (Xception-JFT)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-16</p>
+  </li>
+</ul>
+
+<h3 id="pascal-context">PASCAL Context</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.11816v1.pdf"> FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/wuhuikai/FastFCN">Joint Pyramid Upsampling + EncNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-05</p>
+  </li>
+</ul>
+
+<h3 id="ade20k">ADE20K</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1612.01105v2.pdf">CVPR 2017 Pyramid Scene Parsing Network</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/deeplab">PSPNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-16</p>
+  </li>
+</ul>
+
+<h3 id="camvid">CamVid</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1612.01105v2.pdf">CVPR 2017 Pyramid Scene Parsing Network</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/deeplab">PSPNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-16</p>
+  </li>
+</ul>
+
+<h3 id="shapenet">ShapeNet</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.08588v1.pdf">CVPR 2018 SGPN: Similarity Group Proposal Network for 3D Point Cloud Instance Segmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/laughtervv/SGPN">SGPN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-30</p>
+  </li>
+</ul>
+
+<h3 id="nyu-depth-v2">NYU Depth v2</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.08254v3.pdf"> Efficient Yet Deep Convolutional Neural Networks for Semantic Segmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/SharifAmit/DilatedFCNSegmentation">Dilated FCN-2s RGB</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-03-26</p>
+  </li>
+</ul>
+
+<h3 id="scannet">ScanNet</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.08755v3.pdf">CVPR 2019 4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/StanfordVL/MinkowskiEngine">MinkowskiNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-06</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/image-classification' href='#/image-classification'><h2><code><b>COMPUTER_VISION</b></code> Image Classification</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-image-classification">State Of The Art in Image Classification</h3>
+
+<h3 id="cifar-10">CIFAR-10</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.06965v4.pdf"> GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/lingvo">GPIPE + transfer learning</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-09</p>
+  </li>
+</ul>
+
+<h3 id="mnist">MNIST</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="cifar-100">CIFAR-100</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.06965v4.pdf"> GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/lingvo">GPIPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-09</p>
+  </li>
+</ul>
+
+<h3 id="imagenet">ImageNet</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.06965v4.pdf"> GPipe: Efficient Training of Giant Neural Networks using Pipeline Parallelism</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/lingvo">GPIPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-09</p>
+  </li>
+</ul>
+
+<h3 id="svhn">SVHN</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.09321v2.pdf">ICLR 2019 Fixup Initialization: Residual Learning Without Normalization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hongyi-zhang/Fixup">WRN + fixup init + mixup + cutout</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-05</p>
+  </li>
+</ul>
+
+<h3 id="stl-10">STL-10</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1807.06653.pdf">arXiv 2019 Invariant Information Clustering for Unsupervised Image Classification and Segmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/xu-ji/IIC">IIC</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-02</p>
+  </li>
+</ul>
+
+<h3 id="cinic-10">CINIC-10</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.03505v1.pdf"> CINIC-10 is not ImageNet or CIFAR-10</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/BayesWatch/cinic-10">ResNeXt29_2x64d</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-06</p>
+  </li>
+</ul>
+
+<h3 id="fashion-mnist">Fashion-MNIST</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1708.04896v2.pdf"> Random Erasing Data Augmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/zhunzhong07/Random-Erasing">Random Erasing</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="kuzushiji-mnist">Kuzushiji-MNIST</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.06656v2.pdf"> Training Neural Networks with Local Error Signals</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/anokland/local-loss">VGG8B+LocalLearning+CO</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-01-23</p>
+  </li>
+</ul>
+
+<h3 id="inaturalist">iNaturalist</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06642v2.pdf">CVPR 2018 The iNaturalist Species Classification and Detection Dataset</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/object_detection">IncResNetV2 SE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="multimnist">MultiMNIST</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1710.09829v2.pdf">NeurIPS 2017 Dynamic Routing Between Capsules</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/naturomics/CapsNet-Tensorflow">CapsNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-09-14</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/object-detection' href='#/object-detection'><h2><code><b>COMPUTER_VISION</b></code> Object Detection</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-object-detection">State Of The Art in Object Detection</h3>
+
+<h3 id="coco">COCO</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.01892v1.pdf"> Scale-Aware Trident Networks for Object Detection</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tusimple/simpledet">TridentNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="pascal-voc-2007">PASCAL VOC 2007</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.09300v3.pdf">NeurIPS 2018 SNIPER: Efficient Multi-Scale Training</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/MahyarNajibi/SNIPER">SNIPER</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-03-27</p>
+  </li>
+</ul>
+
+<h3 id="imagenet-detection">ImageNet Detection</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1409.4842v1.pdf">CVPR 2015 Going Deeper with Convolutions</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/slim">Inception V1</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-26</p>
+  </li>
+</ul>
+
+<h3 id="peopleart">PeopleArt</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1610.08871v1.pdf"> Detecting People in Artwork with CNNs</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/BathVisArtData/PeopleArt">Fast R-CNN (VGG16)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2016-10-25</p>
+  </li>
+</ul>
+
+<h3 id="visual-genome">Visual Genome</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.09700v2.pdf">ICCV 2017 Scene Graph Generation from Objects, Phrases and Region Captions</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/yikang-li/MSDN">MSDN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-27</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/question-answering' href='#/question-answering'><h2><code><b>COMPUTER_VISION</b></code> Question Answering</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-question-answering">State Of The Art in Question Answering</h3>
+
+<h3 id="squad11">SQuAD1.1</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.04805v1.pdf"> BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google-research/bert">BERT (ensemble)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="cnn--daily-mail">CNN / Daily Mail</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1703.02620v1.pdf"> Linguistic Knowledge as Memory for Recurrent Neural Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">GA+MAGE (32)</a></p>
+  </li>
+</ul>
+
+<h3 id="wikiqa">WikiQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.07847v3.pdf"> Hyperbolic Representation Learning for Fast and Efficient Neural Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vanzytay/WSDM2018_HyperQA">HyperQA</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-13</p>
+  </li>
+</ul>
+
+<h3 id="babi">bAbi</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.04582v6.pdf"> Query-Reduction Networks for Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/uwnlp/qrn">QRN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2017-09-03</p>
+  </li>
+</ul>
+
+<h3 id="childrens-book-test">Children’s Book Test</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf">Preprint 2019 Language Models are Unsupervised Multitask Learners</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/gpt-2">GPT-2</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="coqa">CoQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.04805v1.pdf"> BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google-research/bert">BERT Large Augmented (single model)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="qasent">QASent</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06038v4.pdf"> Neural Variational Inference for Text Processing</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/carpedm20/variational-text-tensorflow">Attentive LSTM</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2016-08-10</p>
+  </li>
+</ul>
+
+<h3 id="narrativeqa">NarrativeQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/D18-1054">EMNLP 2018 Cut to the Chase: A Context Zoom-in Network for Reading Comprehension</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">ConZNet</a></p>
+  </li>
+</ul>
+
+<h3 id="triviaqa">TriviaQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/D18-1237">EMNLP 2018 MemoReader: Large-Scale Reading Comprehension through Neural Memory Controller</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">MemoReader</a></p>
+  </li>
+</ul>
+
+<h3 id="yahoocqa">YahooCQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.07847v3.pdf"> Hyperbolic Representation Learning for Fast and Efficient Neural Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vanzytay/WSDM2018_HyperQA">HyperQA</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-13</p>
+  </li>
+</ul>
+
+<h3 id="semevalcqa">SemEvalCQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.07847v3.pdf"> Hyperbolic Representation Learning for Fast and Efficient Neural Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vanzytay/WSDM2018_HyperQA">HyperQA</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-13</p>
+  </li>
+</ul>
+
+<h3 id="wikihop">WikiHop</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.00603v2.pdf">ICLR 2019 Coarse-grain Fine-grain Coattention Network for Multi-evidence Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">CFC</a></p>
+  </li>
+</ul>
+
+<h3 id="ai2-kaggle-dataset">AI2 Kaggle Dataset</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/K17-1009">CONLL 2017 Tell Me Why: Using Question Answering as Distant Supervision for Answer Justification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">IR Baseline</a></p>
+  </li>
+</ul>
+
+<h3 id="trecqa">TrecQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.07847v3.pdf"> Hyperbolic Representation Learning for Fast and Efficient Neural Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vanzytay/WSDM2018_HyperQA">HyperQA</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-13</p>
+  </li>
+</ul>
+
+<h3 id="ms-marco">MS MARCO</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.02262v1.pdf"> Multi-style Generative Reading Comprehension</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Masque Q&amp;A Style</a></p>
+  </li>
+</ul>
+
+<h3 id="newsqa">NewsQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.04210v2.pdf">NeurIPS 2018 Densely Connected Attention Propagation for Reading Comprehension</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vanzytay/NIPS2018_DECAPROP">DecaProp</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-03-10</p>
+  </li>
+</ul>
+
+<h3 id="webquestions">WebQuestions</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1506.02075v1.pdf"> Large-scale Simple Question Answering with Memory Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/ParlAI">Memory Networks (ensemble)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="clicr">CliCR</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/N18-1140">HLT 2018 CliCR: a Dataset of Clinical Case Reports for Machine Reading Comprehension</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Gated-Attention Reader</a></p>
+  </li>
+</ul>
+
+<h3 id="reverb">Reverb</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1404.4326v1.pdf"> Open Question Answering with Weakly Supervised Embedding Models</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Weakly Supervised Embeddings</a></p>
+  </li>
+</ul>
+
+<h3 id="mctest-500">MCTest-500</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1603.08884v1.pdf">ACL 2016 A Parallel-Hierarchical Model for Machine Comprehension on Sparse Data</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/Maluuba/mctest-model">Parallel-Hierarchical</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-20</p>
+  </li>
+</ul>
+
+<h3 id="quac">QuAC</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.06683v3.pdf">ICLR 2019 FlowQA: Grasping Flow in History for Conversational Machine Comprehension</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/momohuang/FlowQA">FlowQA (single model)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-22</p>
+  </li>
+</ul>
+
+<h3 id="quora-question-pairs">Quora Question Pairs</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.04805v1.pdf"> BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google-research/bert">BERT (single model)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="complexquestions">COMPLEXQUESTIONS</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.04412v1.pdf">SEMEVAL 2017 Evaluating Semantic Parsing against a Simple Web-based Question Answering Model</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">WebQA</a></p>
+  </li>
+</ul>
+
+<h3 id="simplequestions">SimpleQuestions</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1506.02075v1.pdf"> Large-scale Simple Question Answering with Memory Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/ParlAI">Memory Networks (ensemble)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="natural-questions">Natural Questions</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.08634v2.pdf"> A BERT Baseline for the Natural Questions</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">BERT-joint</a></p>
+  </li>
+</ul>
+
+<h3 id="jd-product-question-answer">JD Product Question Answer</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.07696v2.pdf"> Product-Aware Answer Generation in E-Commerce Question-Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/gsh199449/productqa">PAAG</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-01-24</p>
+  </li>
+</ul>
+
+<h3 id="mctest-160">MCTest-160</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1603.08884v1.pdf">ACL 2016 A Parallel-Hierarchical Model for Machine Comprehension on Sparse Data</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/Maluuba/mctest-model">syntax, frame, coreference, and word embedding features</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-20</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/image-generation' href='#/image-generation'><h2><code><b>COMPUTER_VISION</b></code> Image Generation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-image-generation">State Of The Art in Image Generation</h3>
+
+<h3 id="cifar-10">CIFAR-10</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1710.10196v3.pdf">ICLR 2018 Progressive Growing of GANs for Improved Quality, Stability, and Variation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/jantic/DeOldify">PGGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-25</p>
+  </li>
+</ul>
+
+<h3 id="lsun-bedroom-256-x-256">LSUN Bedroom 256 x 256</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.00284v2.pdf"> COCO-GAN: Generation by Parts via Conditional Coordinating</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hubert0527/COCO-GAN">COCO-GAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-02</p>
+  </li>
+</ul>
+
+<h3 id="imagenet-64x64">ImageNet 64x64</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://d4mucfpksywv.cloudfront.net/Sparse_Transformer/sparse_transformers.pdf">Preprint 2019 Generating Long Sequences with Sparse Transformers</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/sparse_attention">Sparse Transformer 152M (strided)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-25</p>
+  </li>
+</ul>
+
+<h3 id="celeba-hq-1024x1024">CelebA-HQ 1024x1024</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1812.04948v3.pdf">CVPR 2019 A Style-Based Generator Architecture for Generative Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NVlabs/stylegan">StyleGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-11</p>
+  </li>
+</ul>
+
+<h3 id="ffhq">FFHQ</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.06991v1.pdf"> Improved Precision and Recall Metric for Assessing Generative Models</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/manicman1999/precision-recall-keras">StyleGAN (no instance norm)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-01</p>
+  </li>
+</ul>
+
+<h3 id="cat-256x256">CAT 256x256</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1807.00734v3.pdf">ICLR 2019 The relativistic discriminator: a key element missing from standard GAN</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/AlexiaJM/RelativisticGAN">RaSGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-10</p>
+  </li>
+</ul>
+
+<h3 id="celeba">CelebA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.00284v2.pdf"> COCO-GAN: Generation by Parts via Conditional Coordinating</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hubert0527/COCO-GAN">COCO-GAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-02</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/image-to-image-translation' href='#/image-to-image-translation'><h2><code><b>COMPUTER_VISION</b></code> Image To Image Translation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-image-to-image-translation">State Of The Art in Image To Image Translation</h3>
+
+<h3 id="cityscapes-labels-to-photo">Cityscapes Labels-to-Photo</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.07004v3.pdf">CVPR 2017 Image-to-Image Translation with Conditional Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/gan">pix2pix</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-10-02</p>
+  </li>
+</ul>
+
+<h3 id="cityscapes-photo-to-labels">Cityscapes Photo-to-Labels</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.07004v3.pdf">CVPR 2017 Image-to-Image Translation with Conditional Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/gan">pix2pix</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-10-02</p>
+  </li>
+</ul>
+
+<h3 id="ade20k-outdoor-labels-to-photos">ADE20K-Outdoor Labels-to-Photos</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.07291v1.pdf">CVPR 2019 Semantic Image Synthesis with Spatially-Adaptive Normalization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NVlabs/SPADE">SPADE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-21</p>
+  </li>
+</ul>
+
+<h3 id="rafd">RaFD</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.09020v3.pdf">CVPR 2018 StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/yunjey/StarGAN">StarGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-22</p>
+  </li>
+</ul>
+
+<h3 id="coco-stuff-labels-to-photos">COCO-Stuff Labels-to-Photos</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.07291v1.pdf">CVPR 2019 Semantic Image Synthesis with Spatially-Adaptive Normalization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NVlabs/SPADE">SPADE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-21</p>
+  </li>
+</ul>
+
+<h3 id="ade20k-labels-to-photos">ADE20K Labels-to-Photos</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.07291v1.pdf">CVPR 2019 Semantic Image Synthesis with Spatially-Adaptive Normalization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NVlabs/SPADE">SPADE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-21</p>
+  </li>
+</ul>
+
+<h3 id="aerial-to-map">Aerial-to-Map</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.07004v3.pdf">CVPR 2017 Image-to-Image Translation with Conditional Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/gan">cGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-10-02</p>
+  </li>
+</ul>
+
+<h3 id="synthia-to-cityscapes">SYNTHIA-to-Cityscapes</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1812.09953v3.pdf"> A Curriculum Domain Adaptation Approach to the Semantic Segmentation of Urban Scenes</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/YangZhang4065/AdaptationSeg">superpixel + color constancy</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-20</p>
+  </li>
+</ul>
+
+<h3 id="synthia-fall-to-winter">SYNTHIA Fall-to-Winter</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.03213v3.pdf">ICML 2018 CyCADA: Cycle-Consistent Adversarial Domain Adaptation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/jhoffman/cycada_release">CyCADA</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-14</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/pose-estimation' href='#/pose-estimation'><h2><code><b>COMPUTER_VISION</b></code> Pose Estimation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-pose-estimation">State Of The Art in Pose Estimation</h3>
+
+<h3 id="mpii-human-pose">MPII Human Pose</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.09212v1.pdf">CVPR 2019 Deep High-Resolution Representation Learning for Human Pose Estimation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/leoxiaobin/deep-high-resolution-net.pytorch">HRNet-32</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-11</p>
+  </li>
+</ul>
+
+<h3 id="leeds-sports-poses">Leeds Sports Poses</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1708.01101v1.pdf">ICCV 2017 Learning Feature Pyramids for Human Pose Estimation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/bearpaw/PyraNet">Pyramid Residual Modules (PRMs)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2017-11-13</p>
+  </li>
+</ul>
+
+<h3 id="flic-wrists">FLIC Wrists</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1603.06937v2.pdf"> Stacked Hourglass Networks for Human Pose Estimation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/bearpaw/pytorch-pose">Stacked Hourglass Networks</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-25</p>
+  </li>
+</ul>
+
+<h3 id="itop-front-view">ITOP front-view</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.07399v3.pdf">CVPR 2018 V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation from a Single Depth Map</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/mks0601/V2V-PoseNet_RELEASE">V2V-PoseNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-26</p>
+  </li>
+</ul>
+
+<h3 id="itop-top-view">ITOP top-view</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.07399v3.pdf">CVPR 2018 V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation from a Single Depth Map</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/mks0601/V2V-PoseNet_RELEASE">V2V-PoseNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-26</p>
+  </li>
+</ul>
+
+<h3 id="densepose-coco">DensePose-COCO</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.12596v1.pdf">CVPR 2019 Parsing R-CNN for Instance-Level Human Analysis</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/soeaver/Parsing-R-CNN">Parsing R-CNN + ResNext101</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-12-03</p>
+  </li>
+</ul>
+
+<h3 id="coco">COCO</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.09212v1.pdf">CVPR 2019 Deep High-Resolution Representation Learning for Human Pose Estimation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/leoxiaobin/deep-high-resolution-net.pytorch">HRNet-48</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-11</p>
+  </li>
+</ul>
+
+<h3 id="flic-elbows">FLIC Elbows</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1603.06937v2.pdf"> Stacked Hourglass Networks for Human Pose Estimation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/bearpaw/pytorch-pose">Stacked Hourglass Networks</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-25</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/super-resolution' href='#/super-resolution'><h2><code><b>COMPUTER_VISION</b></code> Super Resolution</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-super-resolution">State Of The Art in Super Resolution</h3>
+
+<h3 id="set5-2x">Set5-2x</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.07261.pdf">arXiv 2019 Fast, Accurate and Lightweight Super-Resolution with Neural Architecture Search</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/falsr/FALSR">FALSR-A</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-21</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/image-super-resolution' href='#/image-super-resolution'><h2><code><b>COMPUTER_VISION</b></code> Image Super Resolution</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-image-super-resolution">State Of The Art in Image Super Resolution</h3>
+
+<h3 id="set5---4x-upscaling">Set5 - 4x upscaling</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.11482v1.pdf"> Image Reconstruction with Predictive Filter Flow</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/aimerykong/predictive-filter-flow">PFF</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-27</p>
+  </li>
+</ul>
+
+<h3 id="set14---4x-upscaling">Set14 - 4x upscaling</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.00219v2.pdf"> ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/xinntao/ESRGAN">SRGAN + Residual-in-Residual Dense Block</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-02</p>
+  </li>
+</ul>
+
+<h3 id="bsd100---4x-upscaling">BSD100 - 4x upscaling</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.00219v2.pdf"> ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/xinntao/ESRGAN">SRGAN + Residual-in-Residual Dense Block</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-02</p>
+  </li>
+</ul>
+
+<h3 id="urban100---4x-upscaling">Urban100 - 4x upscaling</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.00219v2.pdf"> ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/xinntao/ESRGAN">SRGAN + Residual-in-Residual Dense Block</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-02</p>
+  </li>
+</ul>
+
+<h3 id="manga109---4x-upscaling">Manga109 - 4x upscaling</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.00219v2.pdf"> ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/xinntao/ESRGAN">SRGAN + Residual-in-Residual Dense Block</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-02</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/face-recognition' href='#/face-recognition'><h2><code><b>COMPUTER_VISION</b></code> Face Recognition</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-face-recognition">State Of The Art in Face Recognition</h3>
+
+<h3 id="olivetti-faces-5-image">Olivetti Faces 5 Image</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="ijb-a">IJB-A</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.09951v1.pdf"> GhostVLAD for set-based face recognition</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">SE-GV-3</a></p>
+  </li>
+</ul>
+
+<h3 id="ijb-b">IJB-B</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.09951v1.pdf"> GhostVLAD for set-based face recognition</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">GhostVLAD, SE-GV-3</a></p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/image-retrieval' href='#/image-retrieval'><h2><code><b>COMPUTER_VISION</b></code> Image Retrieval</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-image-retrieval">State Of The Art in Image Retrieval</h3>
+
+<h3 id="oxf5k">Oxf5k</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1612.06321v4.pdf">ICCV 2017 Large-Scale Image Retrieval with Attentive Deep Local Features</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/delf">DELF+FT+ATT+DIR+QE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="par6k">Par6k</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1612.06321v4.pdf">ICCV 2017 Large-Scale Image Retrieval with Attentive Deep Local Features</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/delf">DELF+FT+ATT+DIR+QE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="par106k">Par106k</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1612.06321v4.pdf">ICCV 2017 Large-Scale Image Retrieval with Attentive Deep Local Features</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/delf">DELF+FT+ATT+DIR+QE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="oxf105k">Oxf105k</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1612.06321v4.pdf">ICCV 2017 Large-Scale Image Retrieval with Attentive Deep Local Features</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/delf">DELF+FT+ATT+DIR+QE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="inria-holidays">INRIA Holidays</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.05509v2.pdf"> MultiGrain: a unified image embedding for classes and instances</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/multigrain">MultiGrain R50 @ 800</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-10</p>
+  </li>
+</ul>
+
+<h3 id="street2shop---topwear">street2shop - topwear</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.03546v1.pdf"> Retrieving Similar E-Commerce Images Using Deep Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/gofynd/mildnet">Ranknet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-09</p>
+  </li>
+</ul>
+
+<h3 id="nus-wide">NUS-WIDE</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.00153v1.pdf"> Deep Triplet Quantization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/thulab/DeepHash">DTQ</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="stanford-cars">Stanford Cars</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1804.00382v2.pdf">ECCV 2018 Attention-based Ensemble for Deep Metric Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">ABE-8-512</a></p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/action-recognition' href='#/action-recognition'><h2><code><b>COMPUTER_VISION</b></code> Action Recognition</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-action-recognition">State Of The Art in Action Recognition</h3>
+
+<h3 id="ucf101">UCF101</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1705.07750v3.pdf">CVPR 2017 Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/deepmind/kinetics-i3d">Two-Stream I3D</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="hmdb51">HMDB51</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1705.07750v3.pdf">CVPR 2017 Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/deepmind/kinetics-i3d">Two-Stream I3D</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="charades">Charades</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1812.01289v2.pdf">CVPR 2019 Timeception for Complex Action Recognition</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/noureldien/timeception">Timeception</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-03</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/visual-question-answering' href='#/visual-question-answering'><h2><code><b>COMPUTER_VISION</b></code> Visual Question Answering</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-visual-question-answering">State Of The Art in Visual Question Answering</h3>
+
+<h3 id="coco-visual-question-answering-vqa-real-images-10-open-ended">COCO Visual Question Answering (VQA) real images 1.0 open ended</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.01847v3.pdf">EMNLP 2016 Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/Cadene/vqa.pytorch">MCB 7 att.</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-24</p>
+  </li>
+</ul>
+
+<h3 id="vqa-v2">VQA v2</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1708.02711v1.pdf">CVPR 2018 Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/peteanderson80/bottom-up-attention">Image features from bottom-up attention, adaptive K, ensemble</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-04</p>
+  </li>
+</ul>
+
+<h3 id="coco-visual-question-answering-vqa-real-images-10-multiple-choice">COCO Visual Question Answering (VQA) real images 1.0 multiple choice</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.01847v3.pdf">EMNLP 2016 Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/Cadene/vqa.pytorch">MCB 7 att.</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-24</p>
+  </li>
+</ul>
+
+<h3 id="coco-visual-question-answering-vqa-real-images-20-open-ended">COCO Visual Question Answering (VQA) real images 2.0 open ended</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.07998v3.pdf">CVPR 2018 Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/peteanderson80/bottom-up-attention">Up-Down</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-04</p>
+  </li>
+</ul>
+
+<h3 id="coco-visual-question-answering-vqa-abstract-images-10-open-ended">COCO Visual Question Answering (VQA) abstract images 1.0 open ended</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1609.05600v2.pdf">CVPR 2017 Graph-Structured Representations for Visual Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Graph VQA</a></p>
+  </li>
+</ul>
+
+<h3 id="coco-visual-question-answering-vqa-abstract-10-multiple-choice">COCO Visual Question Answering (VQA) abstract 1.0 multiple choice</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1609.05600v2.pdf">CVPR 2017 Graph-Structured Representations for Visual Question Answering</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Graph VQA</a></p>
+  </li>
+</ul>
+
+<h3 id="visual7w">Visual7W</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.09978v1.pdf">CVPR 2017 Modeling Relationships in Referential Expressions with Compositional Modular Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hengyuan-hu/bottom-up-attention-vqa">CMN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-05</p>
+  </li>
+</ul>
+
+<h3 id="visual-genome-subjects">Visual Genome (subjects)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.09978v1.pdf">CVPR 2017 Modeling Relationships in Referential Expressions with Compositional Modular Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hengyuan-hu/bottom-up-attention-vqa">CMN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-05</p>
+  </li>
+</ul>
+
+<h3 id="visual-genome-pairs">Visual Genome (pairs)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.09978v1.pdf">CVPR 2017 Modeling Relationships in Referential Expressions with Compositional Modular Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hengyuan-hu/bottom-up-attention-vqa">CMN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-05</p>
+  </li>
+</ul>
+
+<h3 id="vizwiz">VizWiz</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1708.02711v1.pdf">CVPR 2018 Tips and Tricks for Visual Question Answering: Learnings from the 2017 Challenge</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/peteanderson80/bottom-up-attention">Pythia v0.3</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-04</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/optical-flow-estimation' href='#/optical-flow-estimation'><h2><code><b>COMPUTER_VISION</b></code> Optical Flow Estimation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-optical-flow-estimation">State Of The Art in Optical Flow Estimation</h3>
+
+<h3 id="sintel-clean">Sintel-clean</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.05571v1.pdf"> Models Matter, So Does Training: An Empirical Study of CNNs for Optical Flow Estimation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NVlabs/PWC-Net">PWC-Net</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-02</p>
+  </li>
+</ul>
+
+<h3 id="sintel-final">Sintel-final</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.05571v1.pdf"> Models Matter, So Does Training: An Empirical Study of CNNs for Optical Flow Estimation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NVlabs/PWC-Net">PWC-Net</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-02</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/person-re-identification' href='#/person-re-identification'><h2><code><b>COMPUTER_VISION</b></code> Person Re Identification</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-person-re-identification">State Of The Art in Person Re Identification</h3>
+
+<h3 id="market-1501">Market-1501</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.12150v1.pdf"> Parameter-Free Spatial Attention Network for Person Re-Identification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/HRanWang/Spatial-Attention">Parameter-Free Spatial Attention</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-12-26</p>
+  </li>
+</ul>
+
+<h3 id="dukemtmc-reid">DukeMTMC-reID</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.12150v1.pdf"> Parameter-Free Spatial Attention Network for Person Re-Identification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/HRanWang/Spatial-Attention">Parameter-Free Spatial Attention</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-12-26</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='COMPUTER_VISION'>
+  <a name='/continuous-control' href='#/continuous-control'><h2><code><b>COMPUTER_VISION</b></code> Continuous Control</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-continuous-control">State Of The Art in Continuous Control</h3>
+
+<h3 id="deepmind-cheetah-run-images">DeepMind Cheetah Run (Images)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.04551v4.pdf"> Learning Latent Dynamics for Planning from Pixels</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google-research/planet">PlaNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-15</p>
+  </li>
+</ul>
+
+<h3 id="deepmind-cup-catch-images">DeepMind Cup Catch (Images)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.04551v4.pdf"> Learning Latent Dynamics for Planning from Pixels</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google-research/planet">PlaNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-15</p>
+  </li>
+</ul>
+
+<h3 id="deepmind-walker-walk-images">DeepMind Walker Walk (Images)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.04551v4.pdf"> Learning Latent Dynamics for Planning from Pixels</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google-research/planet">PlaNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-15</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/machine-translation' href='#/machine-translation'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Machine Translation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-machine-translation">State Of The Art in Machine Translation</h3>
+
+<h3 id="wmt2014-english-french">WMT2014 English-French</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1808.09381v2.pdf">EMNLP 2018 Understanding Back-Translation at Scale</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/pytorch/fairseq">Transformer Big + BT</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="wmt2014-english-german">WMT2014 English-German</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.10430v2.pdf">ICLR 2019 Pay Less Attention with Lightweight and Dynamic Convolutions</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/pytorch/fairseq">DynamicConv</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="iwslt2015-german-english">IWSLT2015 German-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1706.03762v5.pdf">NeurIPS 2017 Attention Is All You Need</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/tensor2tensor">Transformer</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-english-romanian">WMT2016 English-Romanian</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1705.03122v3.pdf">ICML 2017 Convolutional Sequence to Sequence Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/ParlAI">ConvS2S BPE40k</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="iwslt2015-english-german">IWSLT2015 English-German</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1706.03762v5.pdf">NeurIPS 2017 Attention Is All You Need</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/tensor2tensor">Transformer</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="wmt2015-english-german">WMT2015 English-German</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1610.10099v2.pdf"> Neural Machine Translation in Linear Time</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/paarthneekhara/byteNet-tensorflow">ByteNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2017-08-23</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-german-english">WMT2016 German-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.02891v2.pdf">WS 2016 Edinburgh Neural Machine Translation Systems for WMT 16</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/rsennrich/wmt16-scripts">Attentional encoder-decoder + BPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-english-german">WMT2016 English-German</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.02891v2.pdf">WS 2016 Edinburgh Neural Machine Translation Systems for WMT 16</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/rsennrich/wmt16-scripts">Attentional encoder-decoder + BPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-english-russian">WMT2016 English-Russian</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.02891v2.pdf">WS 2016 Edinburgh Neural Machine Translation Systems for WMT 16</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/rsennrich/wmt16-scripts">Attentional encoder-decoder + BPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-romanian-english">WMT2016 Romanian-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.07291v1.pdf"> Cross-lingual Language Model Pretraining</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/UnsupervisedMT">MLM pretraining</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="wmt-2017-latvian-english">WMT 2017 Latvian-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.08392v1.pdf"> Impact of Corpora Quality on Neural Machine Translation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/M4t1ss/parallel-corpora-tools">Transformer trained on highly filtered data</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="wmt2014-german-english">WMT2014 German-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1802.06901v3.pdf">EMNLP 2018 Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/nyu-dl/dl4mt-nonauto">Denoising autoencoders (non-autoregressive)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-27</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-english-czech">WMT2016 English-Czech</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.02891v2.pdf">WS 2016 Edinburgh Neural Machine Translation Systems for WMT 16</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/rsennrich/wmt16-scripts">Attentional encoder-decoder + BPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-czech-english">WMT2016 Czech-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.02891v2.pdf">WS 2016 Edinburgh Neural Machine Translation Systems for WMT 16</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/rsennrich/wmt16-scripts">Attentional encoder-decoder + BPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="wmt-2017-english-latvian">WMT 2017 English-Latvian</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.08392v1.pdf"> Impact of Corpora Quality on Neural Machine Translation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/M4t1ss/parallel-corpora-tools">Transformer trained on highly filtered data</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="iwslt2015-thai-english">IWSLT2015 Thai-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.07947v4.pdf">EMNLP 2016 Sequence-Level Knowledge Distillation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/harvardnlp/seq2seq-attn">Seq-KD + Seq-Inter + Word-KD</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2017-01-02</p>
+  </li>
+</ul>
+
+<h3 id="wmt2016-russian-english">WMT2016 Russian-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1606.02891v2.pdf">WS 2016 Edinburgh Neural Machine Translation Systems for WMT 16</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/rsennrich/wmt16-scripts">Attentional encoder-decoder + BPE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-06-25</p>
+  </li>
+</ul>
+
+<h3 id="wmt-2018-finnish-english">WMT 2018 Finnish-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.08392v1.pdf"> Impact of Corpora Quality on Neural Machine Translation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/M4t1ss/parallel-corpora-tools">Transformer trained on highly filtered data</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="20news">20NEWS</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1508.04025v5.pdf">EMNLP 2015 Effective Approaches to Attention-based Neural Machine Translation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/fairseq-py">12</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="wmt2014-french-english">WMT2014 French-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.01272v1.pdf">EMNLP 2018 Unsupervised Statistical Machine Translation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/artetxem/vecmap">SMT + iterative backtranslation (unsupervised)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-10-25</p>
+  </li>
+</ul>
+
+<h3 id="wmt-2018-estonian-english">WMT 2018 Estonian-English</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/W18-6423">WS 2018 Tilde’s Machine Translation Systems for WMT 2018</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/M4t1ss/parallel-corpora-tools">Multi-pass backtranslated adapted transformer</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="wmt-2018-english-estonian">WMT 2018 English-Estonian</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/W18-6423">WS 2018 Tilde’s Machine Translation Systems for WMT 2018</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/M4t1ss/parallel-corpora-tools">Multi-pass backtranslated adapted transformer</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="accurat-balanced-test-corpus-for-under-resourced-languages-estonian-russian">ACCURAT balanced test corpus for under resourced languages Estonian-Russian</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/L18-1595">LREC 2018 Training and Adapting Multilingual NMT for Less-resourced and Morphologically Rich Languages</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tilde-nlp/multilingual-nmt-data-prep">Multilingual Transformer</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-14</p>
+  </li>
+</ul>
+
+<h3 id="accurat-balanced-test-corpus-for-under-resourced-languages-russian-estonian">ACCURAT balanced test corpus for under resourced languages Russian-Estonian</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/L18-1595">LREC 2018 Training and Adapting Multilingual NMT for Less-resourced and Morphologically Rich Languages</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tilde-nlp/multilingual-nmt-data-prep">Multilingual Transformer</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-05-14</p>
+  </li>
+</ul>
+
+<h3 id="wmt-2018-english-finnish">WMT 2018 English-Finnish</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.08392v1.pdf"> Impact of Corpora Quality on Neural Machine Translation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/M4t1ss/parallel-corpora-tools">Transformer trained on highly filtered data</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="wmt2015-english-russian">WMT2015 English-Russian</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1508.07909v5.pdf">ACL 2016 Neural Machine Translation of Rare Words with Subword Units</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/fairseq-py">C2-50k Segmentation</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/language-modelling' href='#/language-modelling'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Language Modelling</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-language-modelling">State Of The Art in Language Modelling</h3>
+
+<h3 id="penn-treebank-word-level">Penn Treebank (Word Level)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf">Preprint 2019 Language Models are Unsupervised Multitask Learners</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/gpt-2">GPT-2</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="enwiki8">enwiki8</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf">Preprint 2019 Language Models are Unsupervised Multitask Learners</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/gpt-2">GPT-2</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="one-billion-word">One Billion Word</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.02860v2.pdf">ICLR 2019 Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/huggingface/pytorch-pretrained-BERT">Transformer-XL Large</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-06</p>
+  </li>
+</ul>
+
+<h3 id="wikitext-103">WikiText-103</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf">Preprint 2019 Language Models are Unsupervised Multitask Learners</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/gpt-2">GPT-2</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="text8">Text8</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf">Preprint 2019 Language Models are Unsupervised Multitask Learners</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/gpt-2">GPT-2</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="wikitext-2">WikiText-2</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf">Preprint 2019 Language Models are Unsupervised Multitask Learners</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/gpt-2">GPT-2</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="hutter-prize">Hutter Prize</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.02860v2.pdf">ICLR 2019 Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/huggingface/pytorch-pretrained-BERT">24-layer Transformer-XL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-06</p>
+  </li>
+</ul>
+
+<h3 id="penn-treebank-character-level">Penn Treebank (Character Level)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.06682v2.pdf">ICLR 2019 Trellis Networks for Sequence Modeling</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/locuslab/trellisnet">Trellis Network</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-11</p>
+  </li>
+</ul>
+
+<h3 id="sequential-mnist">Sequential MNIST</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.06682v2.pdf">ICLR 2019 Trellis Networks for Sequence Modeling</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/locuslab/trellisnet">Trellis Network</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-11</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/sentiment-analysis' href='#/sentiment-analysis'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Sentiment Analysis</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-sentiment-analysis">State Of The Art in Sentiment Analysis</h3>
+
+<h3 id="sst-2-binary-classification">SST-2 Binary classification</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.11504v1.pdf"> Multi-Task Deep Neural Networks for Natural Language Understanding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/namisan/mt-dnn">MT-DNN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="sst-5-fine-grained-classification">SST-5 Fine-grained classification</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/C18-1230">COLING 2018 Learning Semantic Sentence Embeddings using Sequential Pair-wise Discriminator</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">EDD-LG (shared)</a></p>
+  </li>
+</ul>
+
+<h3 id="imdb">IMDb</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.12848.pdf">arXiv 2019 Unsupervised Data Augmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">BERT large finetune UDA</a></p>
+  </li>
+</ul>
+
+<h3 id="yelp-binary-classification">Yelp Binary classification</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.12848.pdf">arXiv 2019 Unsupervised Data Augmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">BERT large</a></p>
+  </li>
+</ul>
+
+<h3 id="yelp-fine-grained-classification">Yelp Fine-grained classification</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.12848.pdf">arXiv 2019 Unsupervised Data Augmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">BERT large</a></p>
+  </li>
+</ul>
+
+<h3 id="mr">MR</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1807.04990v1.pdf">ACL 2018 A Multi-sentiment-resource Enhanced Attention Network for Sentiment Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">MEAN</a></p>
+  </li>
+</ul>
+
+<h3 id="amazon-review-polarity">Amazon Review Polarity</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.12848.pdf">arXiv 2019 Unsupervised Data Augmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">BERT large</a></p>
+  </li>
+</ul>
+
+<h3 id="amazon-review-full">Amazon Review Full</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.12848.pdf">arXiv 2019 Unsupervised Data Augmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">BERT large</a></p>
+  </li>
+</ul>
+
+<h3 id="multi-domain-sentiment-dataset">Multi-Domain Sentiment Dataset</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.09311v1.pdf"> Revisiting Distributional Correspondence Indexing: A Python Reimplementation and New Experiments</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/AlexMoreo/pydci">Distributional Correspondence Indexing</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-10-23</p>
+  </li>
+</ul>
+
+<h3 id="cr">CR</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://s3-us-west-2.amazonaws.com/openai-assets/blocksparse/blocksparsepaper.pdf">OpenAi 2017 GPU Kernels for Block-Sparse Weights</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/blocksparse">Block-sparse LSTM</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-05</p>
+  </li>
+</ul>
+
+<h3 id="semeval">SemEval</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1704.06125v1.pdf">SEMEVAL 2017 BB_twtr at SemEval-2017 Task 4: Twitter Sentiment Analysis with CNNs and LSTMs</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/mihirahlawat/Sentiment-Analysis">LSTMs+CNNs ensemble with multiple conv. ops</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-22</p>
+  </li>
+</ul>
+
+<h3 id="mpqa">MPQA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1803.11175v2.pdf"> Universal Sentence Encoder</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/InferSent">USE_T+DAN (w2v w.e.)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-10</p>
+  </li>
+</ul>
+
+<h3 id="sogou-news">Sogou News</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1607.01759v3.pdf">EACL 2017 Bag of Tricks for Efficient Text Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/fastText">fastText</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-29</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/text-classification' href='#/text-classification'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Text Classification</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-text-classification">State Of The Art in Text Classification</h3>
+
+<h3 id="dbpedia">DBpedia</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.12848.pdf">arXiv 2019 Unsupervised Data Augmentation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">BERT large</a></p>
+  </li>
+</ul>
+
+<h3 id="ag-news">AG News</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://www.aaai.org/Papers/AAAI/2019/AAAI-SachanD.7236.pdf">AAAI 2019 2019 Revisiting LSTM Networks for Semi-Supervised Text Classification via Mixed Objective Function</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/DevSinghSachan/ssl_text_classification">L MIXED</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-14</p>
+  </li>
+</ul>
+
+<h3 id="trec-6">TREC-6</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1803.11175v2.pdf"> Universal Sentence Encoder</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/InferSent">USE_T+CNN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-10</p>
+  </li>
+</ul>
+
+<h3 id="yahoo-answers">Yahoo! Answers</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/P18-1215">ACL 2018 Disconnected Recurrent Neural Networks for Text Categorization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">DRNN</a></p>
+  </li>
+</ul>
+
+<h3 id="ohsumed">Ohsumed</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.07153v1.pdf"> Simplifying Graph Convolutional Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/stellargraph/stellargraph">SGCN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-06</p>
+  </li>
+</ul>
+
+<h3 id="r52">R52</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.07153v1.pdf"> Simplifying Graph Convolutional Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/stellargraph/stellargraph">SGCN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-06</p>
+  </li>
+</ul>
+
+<h3 id="trec-50">TREC-50</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/C16-1116">COLING 2016 High Accuracy Rule-based Question Classification using Question Syntax and Semantics</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Rules</a></p>
+  </li>
+</ul>
+
+<h3 id="r8">R8</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.07153v1.pdf"> Simplifying Graph Convolutional Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/stellargraph/stellargraph">SGCN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-06</p>
+  </li>
+</ul>
+
+<h3 id="20news">20NEWS</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.07153v1.pdf"> Simplifying Graph Convolutional Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/stellargraph/stellargraph">SGCN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-06</p>
+  </li>
+</ul>
+
+<h3 id="sogou-news">Sogou News</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.09177v3.pdf"> Compositional coding capsule network with k-means routing for text classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/leftthomas/CCCapsNet">CCCapsNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-09</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/document-classification' href='#/document-classification'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Document Classification</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-document-classification">State Of The Art in Document Classification</h3>
+
+<h3 id="cora">Cora</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.03579v1.pdf">CVPR 2019 Adaptively Connected Neural Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/wanggrun/Adaptively-Connected-Neural-Networks">ACNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-09</p>
+  </li>
+</ul>
+
+<h3 id="wos-46985">WOS-46985</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="wos-5736">WOS-5736</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="wos-11967">WOS-11967</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="reuters-21578">Reuters-21578</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="imdb">IMDb</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+<h3 id="20news">20NEWS</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.01890v2.pdf"> RMDL: Random Multimodel Deep Learning for Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kk7nc/RMDL">RMDL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-31</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/text-generation' href='#/text-generation'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Text Generation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-text-generation">State Of The Art in Text Generation</h3>
+
+<h3 id="coco-captions">COCO Captions</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1709.08624v2.pdf"> Long Text Generation via Adversarial Training with Leaked Information</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/CR-Gjx/LeakGAN">LeakGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-03-17</p>
+  </li>
+</ul>
+
+<h3 id="chinese-poems">Chinese Poems</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1709.08624v2.pdf"> Long Text Generation via Adversarial Training with Leaked Information</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/CR-Gjx/LeakGAN">LeakGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-03-17</p>
+  </li>
+</ul>
+
+<h3 id="emnlp2017-wmt">EMNLP2017 WMT</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1709.08624v2.pdf"> Long Text Generation via Adversarial Training with Leaked Information</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/CR-Gjx/LeakGAN">LeakGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-03-17</p>
+  </li>
+</ul>
+
+<h3 id="yahoo-questions">Yahoo Questions</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.05534v2.pdf">ICLR 2019 Lagging Inference Networks and Posterior Collapse in Variational Autoencoders</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/jxhe/vae-lagging-encoder">Aggressive VAE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-16</p>
+  </li>
+</ul>
+
+<h3 id="cmu-se">CMU-SE</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1808.08703v2.pdf"> Generating Text through Adversarial Training using Skip-Thought Vectors</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/enigmaeth/skip-thought-gan">STWGAN-GP</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-03-20</p>
+  </li>
+</ul>
+
+<h3 id="dailydialog">DailyDialog</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1808.08795v1.pdf">EMNLP 2018 An Auto-Encoder Matching Model for Learning Utterance-Level Semantic Dependency in Dialogue Generation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/lancopku/AMM">AEM+Attention</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-08-27</p>
+  </li>
+</ul>
+
+<h3 id="ldc2016e25">LDC2016E25</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.02473v3.pdf">ACL 2018 A Graph-to-Sequence Model for AMR-to-Text Generation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Graph2Seq</a></p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/natural-language-inference' href='#/natural-language-inference'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Natural Language Inference</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-natural-language-inference">State Of The Art in Natural Language Inference</h3>
+
+<h3 id="snli">SNLI</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.02794v2.pdf"> I Know What You Want: Semantic Learning for Text Comprehension</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">SJRC (BERT-Large +SRL)</a></p>
+  </li>
+</ul>
+
+<h3 id="multinli">MultiNLI</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.11504v1.pdf"> Multi-Task Deep Neural Networks for Natural Language Understanding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/namisan/mt-dnn">MT-DNN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="scitail">SciTail</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1901.11504v1.pdf"> Multi-Task Deep Neural Networks for Natural Language Understanding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/namisan/mt-dnn">MT-DNN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+<h3 id="v-snli">V-SNLI</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.05645v1.pdf">COLING 2018 Grounded Textual Entailment</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/claudiogreco/coling18-gte">V-BiMPM</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-19</p>
+  </li>
+</ul>
+
+<h3 id="quora-question-pairs">Quora Question Pairs</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1812.01840v2.pdf"> Attention Boosted Sequential Inference Model</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">aESIM</a></p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/named-entity-recognition-ner' href='#/named-entity-recognition-ner'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Named Entity Recognition NER</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-named-entity-recognition-ner">State Of The Art in Named Entity Recognition NER</h3>
+
+<h3 id="conll-2003-english">CoNLL 2003 (English)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.07785v1.pdf"> Cloze-driven Pretraining of Self-attention Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">CNN Large + fine-tune</a></p>
+  </li>
+</ul>
+
+<h3 id="ontonotes-v5-english">Ontonotes v5 (English)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/C18-1139">COLING 2018 Contextual String Embeddings for Sequence Labeling</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/zalandoresearch/flair">Flair embeddings</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-30</p>
+  </li>
+</ul>
+
+<h3 id="jnlpba">JNLPBA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.07950v1.pdf"> CollaboNet: collaboration of deep neural networks for biomedical named entity recognition</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/wonjininfo/CollaboNet">CollaboNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-05</p>
+  </li>
+</ul>
+
+<h3 id="bc5cdr">BC5CDR</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.10676v1.pdf"> SciBERT: Pretrained Contextualized Embeddings for Scientific Text</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/allenai/scibert">SciBERT (SciVocab)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-13</p>
+  </li>
+</ul>
+
+<h3 id="long-tail-emerging-entities">Long-tail emerging entities</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/C18-1139">COLING 2018 Contextual String Embeddings for Sequence Labeling</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/zalandoresearch/flair">Flair embeddings</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-30</p>
+  </li>
+</ul>
+
+<h3 id="scierc">SciERC</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.10676v1.pdf"> SciBERT: Pretrained Contextualized Embeddings for Scientific Text</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/allenai/scibert">SciBERT (SciVocab)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-13</p>
+  </li>
+</ul>
+
+<h3 id="ncbi-disease">NCBI-disease</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.10676v1.pdf"> SciBERT: Pretrained Contextualized Embeddings for Scientific Text</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/allenai/scibert">SciBERT (Base Vocab)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-13</p>
+  </li>
+</ul>
+
+<h3 id="wetlab">WetLab</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.00585v2.pdf"> Using Similarity Measures to Select Pretraining Data for NER</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/daixiangau/naacl2019-select-pretraining-data-for-ner">BiLSTM-CRF with ELMo</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-24</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/dependency-parsing' href='#/dependency-parsing'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Dependency Parsing</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-dependency-parsing">State Of The Art in Dependency Parsing</h3>
+
+<h3 id="penn-treebank">Penn Treebank</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1809.08370v1.pdf">EMNLP 2018 Semi-Supervised Sequence Modeling with Cross-View Training</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models">CVT + Multi-Task</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="genia---las">GENIA - LAS</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1808.03731v2.pdf"> From POS tagging to dependency parsing for biomedical event extraction</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/datquocnguyen/BioPosDep">BiLSTM-CRF</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-03-07</p>
+  </li>
+</ul>
+
+<h3 id="genia---uas">GENIA - UAS</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1808.03731v2.pdf"> From POS tagging to dependency parsing for biomedical event extraction</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/datquocnguyen/BioPosDep">BiLSTM-CRF</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-03-07</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/semantic-textual-similarity' href='#/semantic-textual-similarity'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Semantic Textual Similarity</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-semantic-textual-similarity">State Of The Art in Semantic Textual Similarity</h3>
+
+<h3 id="senteval">SentEval</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1804.00079v1.pdf">ICLR 2018 Learning General Purpose Distributed Sentence Representations via Large Scale Multi-task Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/InferSent">GenSen</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-10</p>
+  </li>
+</ul>
+
+<h3 id="sts-benchmark">STS Benchmark</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1803.11175v2.pdf"> Universal Sentence Encoder</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/InferSent">USE_T</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-10</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/relation-extraction' href='#/relation-extraction'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Relation Extraction</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-relation-extraction">State Of The Art in Relation Extraction</h3>
+
+<h3 id="tacred">TACRED</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://openreview.net/pdf?id=BJgrxbqp67">Automated Knowledge Base Construction Conference 2019 Improving Relation Extraction by Pre-trained Language Representations</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/DFKI-NLP/TRE">TRE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-07</p>
+  </li>
+</ul>
+
+<h3 id="chemprot">ChemProt</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.10676v1.pdf"> SciBERT: Pretrained Contextualized Embeddings for Scientific Text</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/allenai/scibert">SciBERT (SciVocab)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-13</p>
+  </li>
+</ul>
+
+<h3 id="scierc">SciERC</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.10676v1.pdf"> SciBERT: Pretrained Contextualized Embeddings for Scientific Text</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/allenai/scibert">SciBERT (SciVocab)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-13</p>
+  </li>
+</ul>
+
+<h3 id="wikipedia-wikidata-relations">Wikipedia-Wikidata relations</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/D17-1188">EMNLP 2017 Context-Aware Representations for Knowledge Base Relation Extraction</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/UKPLab/emnlp2017-relation-extraction">ContextAtt</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-25</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='NATURAL_LANGUAGE_PROCESSING'>
+  <a name='/part-of-speech-tagging' href='#/part-of-speech-tagging'><h2><code><b>NATURAL_LANGUAGE_PROCESSING</b></code> Part Of Speech Tagging</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-part-of-speech-tagging">State Of The Art in Part Of Speech Tagging</h3>
+
+<h3 id="penn-treebank">Penn Treebank</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1805.08237v1.pdf">ACL 2018 Morphosyntactic Tagging with a Meta-BiLSTM Model over Context Sensitive Token Encodings</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/meta_tagger">Meta BiLSTM</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-12-18</p>
+  </li>
+</ul>
+
+<h3 id="ud">UD</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.04903v2.pdf">HLT 2018 Robust Multilingual Part-of-Speech Tagging via Adversarial Training</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">Adversarial Bi-LSTM</a></p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='METHODOLOGY'>
+  <a name='/transfer-learning' href='#/transfer-learning'><h2><code><b>METHODOLOGY</b></code> Transfer Learning</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-transfer-learning">State Of The Art in Transfer Learning</h3>
+
+<h3 id="imageclef-da">ImageCLEF-DA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.01376v2.pdf"> Easy Transfer Learning By Exploiting Intra-domain Structures</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/jindongwang/transferlearning">EasyTL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="office-home">Office-Home</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.01376v2.pdf"> Easy Transfer Learning By Exploiting Intra-domain Structures</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/jindongwang/transferlearning">EasyTL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="amazon-review-polarity">Amazon Review Polarity</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.01376v2.pdf"> Easy Transfer Learning By Exploiting Intra-domain Structures</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/jindongwang/transferlearning">EasyTL</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='METHODOLOGY'>
+  <a name='/multi-task-learning' href='#/multi-task-learning'><h2><code><b>METHODOLOGY</b></code> Multi Task Learning</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-multi-task-learning">State Of The Art in Multi Task Learning</h3>
+
+<h3 id="cityscapes">Cityscapes</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.04650v2.pdf">NeurIPS 2018 Multi-Task Learning as Multi-Objective Optimization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/IntelVCL/MultiObjectiveOptimization">MultiObjectiveOptimization</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-01-29</p>
+  </li>
+</ul>
+
+<h3 id="celeba">CelebA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.04650v2.pdf">NeurIPS 2018 Multi-Task Learning as Multi-Objective Optimization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/IntelVCL/MultiObjectiveOptimization">MGDA-UB</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-01-29</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='METHODOLOGY'>
+  <a name='/domain-adaptation' href='#/domain-adaptation'><h2><code><b>METHODOLOGY</b></code> Domain Adaptation</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-domain-adaptation">State Of The Art in Domain Adaptation</h3>
+
+<h3 id="imageclef-da">ImageCLEF-DA</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1807.07258v2.pdf"> Visual Domain Adaptation with Manifold Embedded Distribution Alignment</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/jindongwang/transferlearning">MEDA</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="office-31">Office-31</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.01341v1.pdf"> Looking back at Labels: A Class based Domain Adaptation Technique</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vinodkkurmi/DiscriminatorDomainAdaptation">IDDA(Alexnet)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-03</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='METHODOLOGY'>
+  <a name='/quantization' href='#/quantization'><h2><code><b>METHODOLOGY</b></code> Quantization</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-quantization">State Of The Art in Quantization</h3>
+
+<h3 id="cifar-10">CIFAR-10</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.00153v1.pdf"> Deep Triplet Quantization</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/thulab/DeepHash">DTQ</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='METHODOLOGY'>
+  <a name='/metric-learning' href='#/metric-learning'><h2><code><b>METHODOLOGY</b></code> Metric Learning</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-metric-learning">State Of The Art in Metric Learning</h3>
+
+<h3 id="cars196">CARS196</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1903.05503v1.pdf">CVPR 2019 Hardness-Aware Deep Metric Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/wzzheng/HDML">GoogleNet</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-03-18</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='METHODOLOGY'>
+  <a name='/architecture-search' href='#/architecture-search'><h2><code><b>METHODOLOGY</b></code> Architecture Search</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-architecture-search">State Of The Art in Architecture Search</h3>
+
+<h3 id="cifar-10-image-classification">CIFAR-10 Image Classification</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1812.00332v2.pdf">ICLR 2019 ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/MIT-HAN-LAB/ProxylessNAS">Proxyless-G + c/o</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-29</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='MISCELLANEOUS'>
+  <a name='/recommendation-systems' href='#/recommendation-systems'><h2><code><b>MISCELLANEOUS</b></code> Recommendation Systems</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-recommendation-systems">State Of The Art in Recommendation Systems</h3>
+
+<h3 id="polyvore">Polyvore</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1902.08009v1.pdf"> Dressing as a Whole: Outfit Compatibility Learning Based on Node-wise Graph Neural Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/CRIPAC-DIG/NGNN">NGNN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-23</p>
+  </li>
+</ul>
+
+<h3 id="movielens-100k">MovieLens 100K</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.05404v1.pdf"> 11 x 11 Domineering is Solved: The first player wins</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">cf</a></p>
+  </li>
+</ul>
+
+<h3 id="movielens-1m">MovieLens 1M</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="http://aclweb.org/anthology/P18-5001">ACL 2018 100 Things You Always Wanted to Know about Semantics &amp; Pragmatics But Were Afraid to Ask</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">cf</a></p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='SPEECH'>
+  <a name='/speech-recognition' href='#/speech-recognition'><h2><code><b>SPEECH</b></code> Speech Recognition</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-speech-recognition">State Of The Art in Speech Recognition</h3>
+
+<h3 id="switchboard--hub500">Switchboard + Hub500</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1703.02136v1.pdf"> English Conversational Telephone Speech Recognition by Humans and Machines</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">ResNet + BiLSTMs acoustic model</a></p>
+  </li>
+</ul>
+
+<h3 id="timit">TIMIT</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.07453v2.pdf"> The PyTorch-Kaldi Speech Recognition Toolkit</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/mravanelli/pytorch-kaldi">LiGRU + Dropout + BatchNorm + Monophone Reg</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="librispeech-test-clean">LibriSpeech test-clean</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.08779v1.pdf"> SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/shelling203/SpecAugment">LAS + SpecAugment</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-07</p>
+  </li>
+</ul>
+
+<h3 id="swb_hub_500-wer-fullswbch">swb_hub_500 WER fullSWBCH</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1703.02136v1.pdf"> English Conversational Telephone Speech Recognition by Humans and Machines</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">ResNet + BiLSTMs acoustic model</a></p>
+  </li>
+</ul>
+
+<h3 id="librispeech-test-other">LibriSpeech test-other</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1904.08779v1.pdf"> SpecAugment: A Simple Data Augmentation Method for Automatic Speech Recognition</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/shelling203/SpecAugment">LAS + SpecAugment</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-07</p>
+  </li>
+</ul>
+
+<h3 id="wsj-eval92">WSJ eval92</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://www.danielpovey.com/files/2016_interspeech_mmi.pdf">INTERSPEECH 2016 2016 Purely sequence-trained neural networks for ASR based on lattice-free MMI</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kaldi-asr/kaldi">tdnn + chain</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="wsj-eval93">WSJ eval93</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1512.02595v1.pdf"> Deep Speech 2: End-to-End Speech Recognition in English and Mandarin</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/deep_speech">Deep Speech 2</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-29</p>
+  </li>
+</ul>
+
+<h3 id="librispeech">Librispeech</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.04826v4.pdf"> VoiceFilter: Targeted Voice Separation by Speaker-Conditioned Spectrogram Masking</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/mindslab-ai/voicefilter">VoiceFilter: bi-LSTM</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="switchboard-300hr">Switchboard (300hr)</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://www.danielpovey.com/files/2018_interspeech_end2end.pdf">Interspeech 2018 2018 End-to-end speech recognition using lattice-free MMI</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/kaldi-asr/kaldi">End-to-end LF-MMI</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='PLAYING_GAMES'>
+  <a name='/atari-games' href='#/atari-games'><h2><code><b>PLAYING_GAMES</b></code> Atari Games</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-atari-games">State Of The Art in Atari Games</h3>
+
+<h3 id="atari-2600-montezumas-revenge">Atari 2600 Montezuma’s Revenge</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.12894v1.pdf"> Exploration by Random Network Distillation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/random-network-distillation">RND</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-22</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-venture">Atari 2600 Venture</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.12894v1.pdf"> Exploration by Random Network Distillation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/random-network-distillation">RND</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-22</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-freeway">Atari 2600 Freeway</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.04717v3.pdf">NeurIPS 2017 #Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/nhynes/abc">TRPO-hash</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2017-12-12</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-frostbite">Atari 2600 Frostbite</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06581v3.pdf"> Dueling Network Architectures for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/Horizon">Prior+Duel noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-qbert">Atari 2600 Q*Bert</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-private-eye">Atari 2600 Private Eye</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-gravitar">Atari 2600 Gravitar</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.12894v1.pdf"> Exploration by Random Network Distillation</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/random-network-distillation">RND</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-22</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-seaquest">Atari 2600 Seaquest</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-space-invaders">Atari 2600 Space Invaders</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-enduro">Atari 2600 Enduro</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-pong">Atari 2600 Pong</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1312.5602v1.pdf"> Playing Atari with Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorpack/tensorpack">DQN best</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-amidar">Atari 2600 Amidar</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-asterix">Atari 2600 Asterix</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-breakout">Atari 2600 Breakout</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.04621v3.pdf">NeurIPS 2016 Deep Exploration via Bootstrapped DQN</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/deep_contextual_bandits">Bootstrapped DQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-07-23</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-alien">Atari 2600 Alien</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-assault">Atari 2600 Assault</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-beam-rider">Atari 2600 Beam Rider</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-kangaroo">Atari 2600 Kangaroo</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.05952v4.pdf"> Prioritized Experience Replay</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">Prior noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-gopher">Atari 2600 Gopher</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-robotank">Atari 2600 Robotank</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.04621v3.pdf">NeurIPS 2016 Deep Exploration via Bootstrapped DQN</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorflow/models/tree/master/research/deep_contextual_bandits">Bootstrapped DQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-07-23</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-bowling">Atari 2600 Bowling</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.07714v2.pdf">NeurIPS 2016 Learning values across many orders of magnitude</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">DDQN+Pop-Art noop</a></p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-up-and-down">Atari 2600 Up and Down</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.01783v2.pdf"> Asynchronous Methods for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorpack/tensorpack">A3C LSTM hs</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-tutankham">Atari 2600 Tutankham</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-time-pilot">Atari 2600 Time Pilot</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.01783v2.pdf"> Asynchronous Methods for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorpack/tensorpack">A3C LSTM hs</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-name-this-game">Atari 2600 Name This Game</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-boxing">Atari 2600 Boxing</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-asteroids">Atari 2600 Asteroids</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.01783v2.pdf"> Asynchronous Methods for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorpack/tensorpack">A3C LSTM hs</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-zaxxon">Atari 2600 Zaxxon</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.01783v2.pdf"> Asynchronous Methods for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorpack/tensorpack">A3C FF hs</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-ice-hockey">Atari 2600 Ice Hockey</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.05952v4.pdf"> Prioritized Experience Replay</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">Prior noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-tennis">Atari 2600 Tennis</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-road-runner">Atari 2600 Road Runner</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.01783v2.pdf"> Asynchronous Methods for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorpack/tensorpack">A3C LSTM hs</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-krull">Atari 2600 Krull</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06581v3.pdf"> Dueling Network Architectures for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/Horizon">Duel noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-demon-attack">Atari 2600 Demon Attack</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-crazy-climber">Atari 2600 Crazy Climber</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-centipede">Atari 2600 Centipede</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.07714v2.pdf">NeurIPS 2016 Learning values across many orders of magnitude</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="">DDQN+Pop-Art noop</a></p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-river-raid">Atari 2600 River Raid</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06581v3.pdf"> Dueling Network Architectures for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/Horizon">Duel noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-wizard-of-wor">Atari 2600 Wizard of Wor</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-double-dunk">Atari 2600 Double Dunk</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.05952v4.pdf"> Prioritized Experience Replay</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">Prior noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-battle-zone">Atari 2600 Battle Zone</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-video-pinball">Atari 2600 Video Pinball</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-bank-heist">Atari 2600 Bank Heist</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06581v3.pdf"> Dueling Network Architectures for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/Horizon">Duel noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-atlantis">Atari 2600 Atlantis</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1703.03864v2.pdf"> Evolution Strategies as a Scalable Alternative to Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/openai/evolution-strategies-starter">ES FF (1 hour) noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-22</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-star-gunner">Atari 2600 Star Gunner</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1602.01783v2.pdf"> Asynchronous Methods for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tensorpack/tensorpack">A3C LSTM hs</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-07</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-fishing-derby">Atari 2600 Fishing Derby</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06581v3.pdf"> Dueling Network Architectures for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/Horizon">Duel noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-chopper-command">Atari 2600 Chopper Command</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-kung-fu-master">Atari 2600 Kung-Fu Master</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-hero">Atari 2600 HERO</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.06887v1.pdf">ICML 2017 A Distributional Perspective on Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/NervanaSystems/coach">C51 noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-05</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-ms-pacman">Atari 2600 Ms. Pacman</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.05952v4.pdf"> Prioritized Experience Replay</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">Prior noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-james-bond">Atari 2600 James Bond</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-berzerk">Atari 2600 Berzerk</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06581v3.pdf"> Dueling Network Architectures for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/Horizon">Prior+Duel noop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-defender">Atari 2600 Defender</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-57">Atari-57</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1803.00933v1.pdf">ICLR 2018 Distributed Prioritized Experience Replay</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/belepi93/Ape-X">Ape-X</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-28</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-solaris">Atari 2600 Solaris</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-phoenix">Atari 2600 Phoenix</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1511.06581v3.pdf"> Dueling Network Architectures for Deep Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/Horizon">Prior+Duel hs</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-pitfall">Atari 2600 Pitfall!</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-skiing">Atari 2600 Skiing</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-yars-revenge">Atari 2600 Yars Revenge</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="atari-2600-surround">Atari 2600 Surround</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.06923v1.pdf">ICML 2018 Implicit Quantile Networks for Distributional Reinforcement Learning</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/google/dopamine">IQN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='GRAPHS'>
+  <a name='/link-prediction' href='#/link-prediction'><h2><code><b>GRAPHS</b></code> Link Prediction</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-link-prediction">State Of The Art in Link Prediction</h3>
+
+<h3 id="wn18">WN18</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1707.01476v6.pdf"> Convolutional 2D Knowledge Graph Embeddings</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/TimDettmers/ConvE">Inverse Model</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-04</p>
+  </li>
+</ul>
+
+<h3 id="wn18rr">WN18RR</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1808.08644v1.pdf">EMNLP 2018 Predicting Semantic Relations using Global Graph Properties</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/yuvalpinter/m3gm">M3GM</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-05</p>
+  </li>
+</ul>
+
+<h3 id="fb15k">FB15k</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.07297v1.pdf">ICML 2018 Canonical Tensor Decomposition for Knowledge Base Completion</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/kbc">ComplEx-N3 (reciprocal)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-30</p>
+  </li>
+</ul>
+
+<h3 id="fb15k-237">FB15k-237</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.07297v1.pdf">ICML 2018 Canonical Tensor Decomposition for Knowledge Base Completion</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/kbc">ComplEx-N3 (reciprocal)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-30</p>
+  </li>
+</ul>
+
+<h3 id="citeseer">Citeseer</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.02798v1.pdf"> Multi-Task Graph Autoencoders</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vuptran/graph-representation-learning">MTGAE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-14</p>
+  </li>
+</ul>
+
+<h3 id="cora">Cora</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1811.02798v1.pdf"> Multi-Task Graph Autoencoders</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/vuptran/graph-representation-learning">MTGAE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-14</p>
+  </li>
+</ul>
+
+<h3 id="pubmed">Pubmed</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1611.07308v1.pdf"> Variational Graph Auto-Encoders</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tkipf/gae">Variational graph auto-encoders</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-02-06</p>
+  </li>
+</ul>
+
+<h3 id="yago3-10">YAGO3-10</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1806.07297v1.pdf">ICML 2018 Canonical Tensor Decomposition for Knowledge Base Completion</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/facebookresearch/kbc">ComplEx-N3 (reciprocal)</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-05-30</p>
+  </li>
+</ul>
+
+<h3 id="wiki">Wiki</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://shiruipan.github.io/pdf/ICDM-18-Yang.pdf">ICDM 2018 Binarized Attributed Network Embedding</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/benedekrozemberczki/BANE">BANE</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-02</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+  <article class='GRAPHS'>
+  <a name='/node-classification' href='#/node-classification'><h2><code><b>GRAPHS</b></code> Node Classification</h2></a>
+  <section class='body'>
+      <h3 id="state-of-the-art-in-node-classification">State Of The Art in Node Classification</h3>
+
+<h3 id="citeseer">Citeseer</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1905.00067v1.pdf"> MixHop: Higher-Order Graph Convolution Architectures via Sparsified Neighborhood Mixing</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/benedekrozemberczki/NGCN">MixHop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="cora">Cora</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1905.00067v1.pdf"> MixHop: Higher-Order Graph Convolution Architectures via Sparsified Neighborhood Mixing</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/benedekrozemberczki/NGCN">MixHop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="pubmed">Pubmed</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1905.00067v1.pdf"> MixHop: Higher-Order Graph Convolution Architectures via Sparsified Neighborhood Mixing</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/benedekrozemberczki/NGCN">MixHop</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="blogcatalog">BlogCatalog</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.08267v1.pdf"> GraphGAN: Graph Representation Learning with Generative Adversarial Nets</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hwwang55/GraphGAN">GraphGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-06</p>
+  </li>
+</ul>
+
+<h3 id="wikipedia">Wikipedia</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1711.08267v1.pdf"> GraphGAN: Graph Representation Learning with Generative Adversarial Nets</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/hwwang55/GraphGAN">GraphGAN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2018-11-06</p>
+  </li>
+</ul>
+
+<h3 id="nell">NELL</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1609.02907v4.pdf"> Semi-Supervised Classification with Graph Convolutional Networks</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/tkipf/gcn">GCN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-04-08</p>
+  </li>
+</ul>
+
+<h3 id="wiki">Wiki</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://smartyfh.com/Documents/18DANMF.pdf">CIKM 2018 Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/benedekrozemberczki/DANMF">DANMF</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-01</p>
+  </li>
+</ul>
+
+<h3 id="ppi">PPI</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1802.08888v1.pdf"> N-GCN: Multi-scale Graph Convolution for Semi-supervised Node Classification</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/benedekrozemberczki/MixHop-and-N-GCN">N-GCN</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-08</p>
+  </li>
+</ul>
+
+<h3 id="ms-academic">MS ACADEMIC</h3>
+
+<ul>
+  <li>
+    <p>Paper: <a href="https://arxiv.org/pdf/1810.05997v5.pdf">ICLR 2019 Predict then Propagate: Graph Neural Networks meet Personalized PageRank</a></p>
+  </li>
+  <li>
+    <p>Best Method and Code: <a href="https://github.com/benedekrozemberczki/APPNP">APPNP</a></p>
+  </li>
+  <li>
+    <p>Last Update: 2019-06-03</p>
+  </li>
+</ul>
+
+
+    </section>
+  </article>
+
+</section>
+
+  
+  <!--[if lt IE 9]><script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+  <script src='assets.js' type='text/javascript'></script>
+  <script>require('boot');</script>
+</body>
+</html>
