@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+#n {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#n input {
+  width: 200px;
+}
+
+#xiteration {
+  position: absolute;
+  left: 300px;
+  top: 20px;
+}
+
+#p {
+  position: absolute;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+
+#bnin {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 90px;
+  top: 0px;
+}
+#bn {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 230px;
+  top: 0px;
+}
+
+
+#shpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 5px;
+}
+#shppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 5px;
+}
+
+#shppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 5px;
+}
+
+
+#jxpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 65px;
+}
+#jxppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 65px;
+}
+
+#jxppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 65px;
+}
+
+
+#hzpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 125px;
+}
+#hzppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 125px;
+}
+#hzppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 125px;
+}
+
+
+#jhpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 185px;
+}
+#jhppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 185px;
+}
+
+#jhppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 185px;
+}
+
+#szpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 245px;
+}
+#szppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 245px;
+}
+#szppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 245px;
+}
+
+
+#huzpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 305px;
+}
+#huzppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 305px;
+}
+#huzppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 305px;
+}
+
+
+#xcpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 365px;
+}
+#xcppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 365px;
+}
+
+#xcppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 365px;
+}
+
+#whpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 425px;
+}
+#whppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 425px;
+}
+#whppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 425px;
+}
+
+
+#hfpp {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 100px;
+  top: 485px;
+}
+#hfppv {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 240px;
+  top: 485px;
+}
+#hfppt {
+  position: absolute;
+  /*margin: 10px;*/
+  left: 320px;
+  top: 485px;
+}
+
+#grid {
+  position: absolute;
+  margin-top: 100px;
+}
+
+/</style>
+
+<div id="n">
+  Simulation Control:
+  <button id="startbutton">Start</button>
+  <button id="stopbutton">Stop</button>
+</div>
+<div id="xiteration">
+  Iteration:
+  <output id='iter' name="n">0</output>
+</div>
+
+<div id="p">
+  Global:
+  <input id="bnin" type="range" min="1" max="10" value="5">
+  <output id="bn">5</output>
+</div>
+<div id="grid">
+  <input id="shpp" type="range" min="1" max="10" value="5">
+  <output id="shppv">5</output>
+  <output id="shppt">5</output>
+  <input id="jxpp" type="range" min="1" max="10" value="5">
+  <output id="jxppv">5</output>
+  <output id="jxppt">5</output>
+  <input id="hzpp" type="range" min="1" max="10" value="5">
+  <output id="hzppv">5</output>
+  <output id="hzppt">5</output>
+  <input id="jhpp" type="range" min="1" max="10" value="5">
+  <output id="jhppv">5</output>
+  <output id="jhppt">5</output>
+  <input id="szpp" type="range" min="1" max="10" value="5">
+  <output id="szppv">5</output>
+  <output id="szppt">5</output>
+  <input id="huzpp" type="range" min="1" max="10" value="5">
+  <output id="huzppv">5</output>
+  <output id="huzppt">5</output>
+  <input id="xcpp" type="range" min="1" max="10" value="5">
+  <output id="xcppv">5</output>
+  <output id="xcppt">5</output>
+  <input id="whpp" type="range" min="1" max="10" value="5">
+  <output id="whppv">5</output>
+  <output id="whppt">5</output>
+  <input id="hfpp" type="range" min="1" max="10" value="5">
+  <output id="hfppv">5</output>
+  <output id="hfppt">5</output>
+
+
+</div>
+<script src="http://d3js.org/d3.v4.min.js"></script>
+<script>
+
+var svg = d3.select("#grid").insert("svg:svg")
+    .attr("width", 1000)
+    .attr("height", 600);
+
+var states = svg.append("svg:g")
+    .attr("id", "states");
+
+var id_list = ['Shanghai', 'Jiaxing', 'Hangzhou', 'Jinhua', 'Suzhou', 'Huzhou', 'Xuancheng', 'Wuhu', 'Hefei'];
+var nl = ['shpp', 'jxpp', 'hzpp', 'jhpp', 'szpp', 'huzpp', 'xcpp', 'whpp', 'hfpp'];
+var pl = [-50, 10, 70, 130, 190, 250, 310, 370, 430];
+var bar_order = d3.scaleOrdinal();
+bar_order.domain(id_list);
+      bar_order.range(pl);
+
+var bar_number = states
+      .selectAll("bra_number")
+        .data(id_list)
+      .enter().append("text")
+           // .attr("id", function(d, i){return d.iata;})
+            // .attr("class", function(d, i){return "mg_bar " + d.iata;})
+       .attr("fill", "#000")
+        .attr("x", function(d,i){
+        return 10 ;})//1505
+        .attr("text-anchor", "start")
+        .attr("y", function(d, i) { 
+
+            // console.log(bar_order(d));
+           return (70 + bar_order(d)); })
+        .style("font-size", 15)
+        .text(function(d, i){return d;});   
+
+
+var check = false;
+
+
+var output = d3.select("#iter"),
+    pb = d3.select("#bn"),
+    input = d3.select("#iter").on("change", changed).each(changed),
+    pbrange = d3.select("#bnin").on("change", pchanged).each(pchanged),
+ 
+    shppv = d3.select("#shppv"),
+    jxppv = d3.select("#jxppv"),
+    hzppv = d3.select("#hzppv"),
+    jhppv = d3.select("#jhppv"),
+    szppv = d3.select("#szppv"),
+    huzppv = d3.select("#huzppv"),
+    xcppv = d3.select("#xcppv"),
+    whppv = d3.select("#whppv"),
+    hfppv = d3.select("#hfppv"),
+
+    shpprange = d3.select("#shpp").on("change", shppchanged).each(shppchanged),
+    jxpprange = d3.select("#jxpp").on("change", jxppchanged).each(jxppchanged),
+    hzpprange = d3.select("#hzpp").on("change", hzppchanged).each(hzppchanged),
+    jhpprange = d3.select("#jhpp").on("change", jhppchanged).each(jhppchanged),
+    szpprange = d3.select("#szpp").on("change", szppchanged).each(szppchanged),
+    huzpprange = d3.select("#huzpp").on("change", huzppchanged).each(huzppchanged),
+    xcpprange = d3.select("#xcpp").on("change", xcppchanged).each(xcppchanged),
+    whpprange = d3.select("#whpp").on("change", whppchanged).each(whppchanged),
+    hfpprange = d3.select("#hfpp").on("change", hfppchanged).each(hfppchanged),
+
+    shpp = 5,
+    jxpp = 5,
+    hzpp = 5,
+    jhpp = 5,
+    szpp = 5,
+    huzpp = 5,
+    xcpp = 5,
+    whpp = 5,
+    hfpp = 5,
+
+    count = 0,
+    birthrate = 5;
+
+var stopbutton = d3.select("#stopbutton").on("click", stopFunction);
+var startbutton = d3.select("#startbutton").on("click", startFunction);
+
+
+var cl = [30, 3, 11, 3, 10, 2, 1, 2, 5]; 
+
+
+var ptn = cl.reduce((a, b) => a + b, 0);
+// console.log(ptn);
+
+
+for(var i = 0;i < 9;i++){
+  d3.select('#' + nl[i] + 't').text(cl[i]);  };
+
+
+var dataset = [];
+
+for(var i = 0;i < 9;i++){
+
+
+}
+
+var m = 0;
+
+var coordsx = [];
+var coordsy = [];
+
+for  (var i = 0; i < 9; i++){
+for (var j = 0; j < cl[i]; j++){
+  coordsy.push(60 + pl[i]);
+  coordsx.push(20 + j*20); 
+
+  states.append("circle")
+       .attr("id", id_list[i] +  j)
+       .attr("cx", 20 + j*20)
+       .attr("cy", 62 + pl[i])
+       .attr("fill", "red")
+       .attr("r", 10)
+        .transition()
+       .duration(500)
+       .attr("cy", 92 + pl[i]);
+}}
+
+
+// d3.select('#Shanghai10').transition().delay(500).duration(10).attr('fill', 'blue');
+
+
+var addin = 0;
+
+
+function startFunction(){
+
+  check = false;
+  output.text(0);
+
+  // d3.selectAll('circle').remove();
+    count = 0;
+
+function f() {
+
+count ++;
+
+output.text(count);
+// console.log(count);
+
+record = [];
+cre = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+start = [0, 0, 0, 0, 0, 0, 0, 0, 0];
+
+mapping = {};
+
+for  (var i = 0; i < 9; i++){
+  var change = [];
+for (var j = 0; j < cl[i]; j++){
+
+
+// choose
+
+  vv = [shpp, jxpp, hzpp, jhpp, szpp, huzpp, xcpp, whpp, hfpp];
+  total = shpp + jxpp + hzpp + jhpp + szpp + huzpp + xcpp + whpp + hfpp;
+  cc = getRandomInt(total);
+
+  console.log(cc);
+
+  tt = 0
+  for (var im = 0; im < 9; im++){
+      tt += vv[im];
+      if (cc <= tt -1){ choose = im;break;}
+  }
+
+  // console.log(choose);
+  cre[choose] += 1;
+  // console.log(choose);
+
+d3.select('#' + id_list[i] + j).transition().duration(800).attr('cx', 20* cl[choose] +  cre[choose]* 20).attr('cy', 92 + pl[choose]);
+mapping['#' + id_list[i] + j] = [id_list[choose] + (cre[choose] - 1), cre[choose]];
+// break;
+  change.push(choose);
+}
+// break;
+  record.push(change.slice(0));
+}
+
+// console.log(cre);
+
+// cl  = cre;
+
+// console.log(mapping);
+
+
+
+for  (var i = 0; i < 9; i++){
+for (var j = 0; j < cl[i]; j++){
+
+d3.select('#' + id_list[i] + j).transition().delay(1200).duration(800).attr('id', mapping['#' + id_list[i] + j][0]).attr('cx', 20 * mapping['#' + id_list[i] + j][1]);
+
+}}
+
+
+
+cl = cre.slice(0);
+
+
+
+
+
+
+
+//add circles
+
+nnum = cl.reduce((a, b) => a + b, 0);
+t = ptn * Math.pow( 1+ birthrate/1000, count)  - nnum;
+
+if (t >=1){
+
+i = cl.indexOf(Math.max(...cl));
+cl[i] += 1;
+
+  states.append("circle")
+       .attr("id", id_list[i] + (cl[i]-1))
+       .attr("cx", 20 + (cl[i] - 1)*20)
+       .attr("cy", 62 + pl[i])
+       .attr("fill", "red")
+       .attr("r", 10)
+        .transition()
+       .duration(500)
+       .attr("cy", 92 + pl[i]);
+}
+
+
+if(check) {
+      clearInterval(st);};
+}
+
+var st = setInterval(f, 2400);
+
+}
+
+
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+
+function stopFunction(){
+  check = true;
+}
+
+
+function changed() {
+  var n = +this.value;
+  output.text(n);
+}
+
+function pchanged() {
+
+  var sn = +this.value;
+  pb.text(sn);
+  birthrate = sn;
+}
+
+function shppchanged() {
+  var sn = +this.value;
+  shppv.text(sn);
+  shpp = sn;
+}
+
+
+function jxppchanged() {
+  var sn = +this.value;
+  jxppv.text(sn);
+  jxpp = sn;
+}
+
+
+function hzppchanged() {
+  var sn = +this.value;
+  hzppv.text(sn);
+  hzpp = sn;
+}
+
+function jhppchanged() {
+  var sn = +this.value;
+  jhppv.text(sn);
+  jhpp = sn;
+}
+
+function szppchanged() {
+  var sn = +this.value;
+  szppv.text(sn);
+  szpp = sn;
+}
+
+function huzppchanged() {
+  var sn = +this.value;
+  huzppv.text(sn);
+  huzpp = sn;
+}
+
+function xcppchanged() {
+  var sn = +this.value;
+  xcppv.text(sn);
+  xcpp = sn;
+}
+
+function whppchanged() {
+  var sn = +this.value;
+  whppv.text(sn);
+  whpp = sn;
+}
+
+function hfppchanged() {
+  var sn = +this.value;
+  hfppv.text(sn);
+  hfpp = sn;
+}
+
+
+
+</script>
