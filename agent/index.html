@@ -326,6 +326,17 @@ var output = d3.select("#iter"),
     whppv = d3.select("#whppv"),
     hfppv = d3.select("#hfppv"),
 
+    shppt = d3.select("#shppt"),
+    jxppt = d3.select("#jxppt"),
+    hzppt = d3.select("#hzppt"),
+    jhppt = d3.select("#jhppt"),
+    szppt = d3.select("#szppt"),
+    huzppt = d3.select("#huzppt"),
+    xcppt = d3.select("#xcppt"),
+    whppt = d3.select("#whppt"),
+    hfppt = d3.select("#hfppt"),
+
+
     shpprange = d3.select("#shpp").on("change", shppchanged).each(shppchanged),
     jxpprange = d3.select("#jxpp").on("change", jxppchanged).each(jxppchanged),
     hzpprange = d3.select("#hzpp").on("change", hzppchanged).each(hzppchanged),
@@ -404,7 +415,56 @@ function startFunction(){
   check = false;
   output.text(0);
 
-  // d3.selectAll('circle').remove();
+  d3.selectAll('circle').remove();
+
+
+
+
+
+var cl = [30, 3, 11, 3, 10, 2, 1, 2, 5]; 
+
+
+var ptn = cl.reduce((a, b) => a + b, 0);
+// console.log(ptn);
+
+
+for(var i = 0;i < 9;i++){
+  d3.select('#' + nl[i] + 't').text(cl[i]);  };
+
+
+var dataset = [];
+
+for(var i = 0;i < 9;i++){
+
+
+}
+
+var m = 0;
+
+var coordsx = [];
+var coordsy = [];
+
+for  (var i = 0; i < 9; i++){
+for (var j = 0; j < cl[i]; j++){
+  coordsy.push(60 + pl[i]);
+  coordsx.push(20 + j*20); 
+
+  states.append("circle")
+       .attr("id", id_list[i] +  j)
+       .attr("cx", 20 + j*20)
+       // .attr("cy", 62 + pl[i])
+       .attr("fill", "red")
+       .attr("r", 10)
+        // .transition()
+       // .duration(500)
+       .attr("cy", 92 + pl[i]);
+}}
+
+
+
+
+
+
     count = 0;
 
 function f() {
@@ -431,7 +491,7 @@ for (var j = 0; j < cl[i]; j++){
   total = shpp + jxpp + hzpp + jhpp + szpp + huzpp + xcpp + whpp + hfpp;
   cc = getRandomInt(total);
 
-  console.log(cc);
+  // console.log(cc);
 
   tt = 0
   for (var im = 0; im < 9; im++){
@@ -472,7 +532,15 @@ d3.select('#' + id_list[i] + j).transition().delay(1200).duration(800).attr('id'
 cl = cre.slice(0);
 
 
-
+shppt.text(cl[0]);
+jxppt.text(cl[1]);
+hzppt.text(cl[2]);
+jhppt.text(cl[3]);
+szppt.text(cl[4]);
+huzppt.text(cl[5]);
+xcppt.text(cl[6]);
+whppt.text(cl[7]);
+hfppt.text(cl[8]);
 
 
 
