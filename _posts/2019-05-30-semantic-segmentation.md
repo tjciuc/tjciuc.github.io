@@ -7,6 +7,7 @@ layout: nil
 ---
 
 ### State Of The Art in Semantic Segmentation  
+### 语义分割的最新进展 
 
 ### PASCAL VOC 2012
 
@@ -15,6 +16,13 @@ layout: nil
 * Best Method and Code: [DeepLabv3+ (Xception-JFT)](https://github.com/tensorflow/models/tree/master/research/deeplab)
 
 * Last Update: 2019-05-16
+
+* 论文：ECCV 2018 用于图像语义分割的可分离卷积的编解码器
+
+* 最佳方法和代码: [DeepLabv3+ (Xception-JFT)](https://github.com/tensorflow/models/tree/master/research/deeplab)
+
+* 最近更新: 2019-05-16
+
 
 ### Cityscapes
 
