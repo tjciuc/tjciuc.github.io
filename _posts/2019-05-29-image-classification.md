@@ -47,7 +47,7 @@ layout: nil
 
 * 论文: [GPipe: 利用并行流水线有效训练巨型神经网络](https://arxiv.org/pdf/1811.06965v4.pdf)
 
-* 最佳方法和代码: [GPIPE + transfer learning](https://github.com/tensorflow/lingvo)
+* 最佳方法和代码: [GPIPE](https://github.com/tensorflow/lingvo)
 
 * 最近更新: 2019-06-09
 
@@ -61,7 +61,7 @@ layout: nil
 
 * 论文: [GPipe: 利用并行流水线有效训练巨型神经网络](https://arxiv.org/pdf/1811.06965v4.pdf)
 
-* 最佳方法和代码: [GPIPE + transfer learning](https://github.com/tensorflow/lingvo)
+* 最佳方法和代码: [GPIPE](https://github.com/tensorflow/lingvo)
 
 * 最近更新: 2019-06-09
 

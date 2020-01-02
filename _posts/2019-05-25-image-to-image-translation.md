@@ -89,7 +89,7 @@ layout: nil
 
 * 论文: [CVPR 2017 基于条件限制GAN的图到图转换](https://arxiv.org/pdf/1611.07004v3.pdf)
 
-* 最佳方法和代码: [pix2pix](https://github.com/tensorflow/models/tree/master/research/gan)
+* 最佳方法和代码: [cGAN](https://github.com/tensorflow/models/tree/master/research/gan)
 
 * 最近更新: 2018-10-02
 

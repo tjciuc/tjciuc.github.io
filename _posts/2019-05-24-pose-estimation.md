@@ -47,7 +47,7 @@ layout: nil
 
 * 论文: [用于人体姿态估计的堆叠沙漏网络](https://arxiv.org/pdf/1603.06937v2.pdf)
 
-* 最佳方法和代码: [](https://github.com/bearpaw/pytorch-pose)
+* 最佳方法和代码: [Stacked Hourglass Networks](https://github.com/bearpaw/pytorch-pose)
 
 * 最近更新: 2019-02-25
 
@@ -117,7 +117,7 @@ layout: nil
 
 * 论文: [用于人体姿态估计的堆叠沙漏网络](https://arxiv.org/pdf/1603.06937v2.pdf)
 
-* 最佳方法和代码: [](https://github.com/bearpaw/pytorch-pose)
+* 最佳方法和代码: [Stacked Hourglass Networks](https://github.com/bearpaw/pytorch-pose)
 
 * 最近更新: 2019-02-25
 

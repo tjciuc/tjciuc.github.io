@@ -85,7 +85,7 @@ layout: nil
 
 * 论文: [BERT: 预训练深度双向编码器用于语言理解](https://arxiv.org/pdf/1810.04805v1.pdf)
 
-* 最佳方法和代码: [BERT (ensemble)](https://github.com/google-research/bert)
+* 最佳方法和代码: [BERT Large Augmented (single model)](https://github.com/google-research/bert)
 
 * 最近更新: 2019-05-31
 
@@ -281,7 +281,7 @@ layout: nil
 
 * 论文: [BERT: 预训练深度双向编码器用于语言理解](https://arxiv.org/pdf/1810.04805v1.pdf)
 
-* 最佳方法和代码: [BERT (ensemble)](https://github.com/google-research/bert)
+* 最佳方法和代码: [BERT (single model)](https://github.com/google-research/bert)
 
 * 最近更新: 2019-05-31
 
@@ -343,7 +343,7 @@ layout: nil
 
 * 论文: [ACL 2016 用于稀疏数据机器理解的并行分层模型](https://arxiv.org/pdf/1603.08884v1.pdf)
 
-* 最佳方法和代码: [Parallel-Hierarchical](https://github.com/Maluuba/mctest-model)
+* 最佳方法和代码: [syntax, frame, coreference, and word embedding features](https://github.com/Maluuba/mctest-model)
 
 * 最近更新: 2018-11-20
 
