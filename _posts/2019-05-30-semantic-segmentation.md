@@ -46,7 +46,7 @@ layout: nil
 
 * Last Update: 2019-04-05
 
-* 论文: [ FastFCN: 重新思考扩张卷积在语义分割中的作用](https://arxiv.org/pdf/1903.11816v1.pdf)
+* 论文: [ FastFCN: 重新思考扩张卷积在语义分割中的支撑作用](https://arxiv.org/pdf/1903.11816v1.pdf)
 
 * 最佳方法和代码: [Joint Pyramid Upsampling + EncNet](https://github.com/wuhuikai/FastFCN)
 
@@ -116,7 +116,7 @@ layout: nil
 
 * Last Update: 2019-06-06
 
-* 论文: [CVPR 2019 四维时空卷积网络: Minkowski 卷积神经网络](https://arxiv.org/pdf/1904.08755v3.pdf)
+* 论文: [CVPR 2019 四维时空卷积网络: Minkowski卷积神经网络](https://arxiv.org/pdf/1904.08755v3.pdf)
 
 * 最佳方法和代码 [MinkowskiNet](https://github.com/StanfordVL/MinkowskiEngine)
 

@@ -14,7 +14,7 @@ Some data are from [RedditSota](https://github.com/RedditSota/state-of-the-art-r
 
 这是WUS将AI应用于城市规划实践的一部分。  
 
-我们通过观察对基准数据集的性能改进来跟踪AI的进展。利用机器学习主要领域的子任务来进行组织，包括来自<span style="color:#FFB300;font-weight:bold">计算机视觉</span>, <span style="color:#803E75;font-weight:bold">自然语言处理</span>, <span style="color:#A6BDD7;font-weight:bold">方法论</span>, <span style="color:#C10020;font-weight:bold">杂项</span>, <span style="color:#CEA262;font-weight:bold">语音</span>, <span style="color:#817066;font-weight:bold">博弈论</span> 和 <span style="color:#007D34;font-weight:bold">图论</span>等领域的子任务。每个子任务都详细阐述了相应的数据集，以及论文和实现最佳性能的代码。  
+我们通过观察对基准数据集的性能改进来跟踪AI的进展。利用机器学习主要领域的子任务来进行组织，包括来自<span style="color:#FFB300;font-weight:bold">计算机视觉</span>,<span style="color:#803E75;font-weight:bold">自然语言处理</span>,<span style="color:#A6BDD7;font-weight:bold">方法论</span>,<span style="color:#C10020;font-weight:bold">杂项</span>,<span style="color:#CEA262;font-weight:bold">语音</span>,<span style="color:#817066;font-weight:bold">博弈论</span>和<span style="color:#007D34;font-weight:bold">图论</span>等领域的子任务。每个子任务都包含了相应的数据集，以及论文和实现最佳性能的代码。  
 
 部分数据来自[RedditSota](https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems), [EFF AI metrics](https://github.com/AI-metrics/AI-metrics)等。  
 
