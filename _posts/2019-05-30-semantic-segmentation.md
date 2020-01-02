@@ -40,13 +40,13 @@ layout: nil
 
 ### PASCAL Context
 
-* Paper: [ FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation](https://arxiv.org/pdf/1903.11816v1.pdf)
+* Paper: [FastFCN: Rethinking Dilated Convolution in the Backbone for Semantic Segmentation](https://arxiv.org/pdf/1903.11816v1.pdf)
 
 * Best Method and Code: [Joint Pyramid Upsampling + EncNet](https://github.com/wuhuikai/FastFCN)
 
 * Last Update: 2019-04-05
 
-* 论文: [ FastFCN: 重新思考扩张卷积在语义分割中的支撑作用](https://arxiv.org/pdf/1903.11816v1.pdf)
+* 论文: [FastFCN: 重新思考扩张卷积在语义分割中的支撑作用](https://arxiv.org/pdf/1903.11816v1.pdf)
 
 * 最佳方法和代码: [Joint Pyramid Upsampling + EncNet](https://github.com/wuhuikai/FastFCN)
 
