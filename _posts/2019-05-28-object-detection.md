@@ -7,7 +7,7 @@ layout: nil
 ---
 
 ### State Of The Art in Object Detection  
-### 物体识别的最新技术  
+### 物体识别的最新进展  
 
 ### COCO
 
