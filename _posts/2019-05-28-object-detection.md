@@ -59,11 +59,11 @@ layout: nil
 
 * Last Update: 2016-10-25
 
-* Paper: [利用卷积神经网络检测艺术作品中的人物](https://arxiv.org/pdf/1610.08871v1.pdf)
+* 论文: [利用卷积神经网络检测艺术作品中的人物](https://arxiv.org/pdf/1610.08871v1.pdf)
 
-* Best Method and Code: [Fast R-CNN (VGG16)](https://github.com/BathVisArtData/PeopleArt)
+* 最佳方法和代码: [Fast R-CNN (VGG16)](https://github.com/BathVisArtData/PeopleArt)
 
-* Last Update: 2016-10-25
+* 最近更新: 2016-10-25
 
 ### Visual Genome
 
@@ -73,9 +73,9 @@ layout: nil
 
 * Last Update: 2019-02-27
 
-* Paper: [ICCV 2017 利用物体、短语和区域描述生成场景图片](https://arxiv.org/pdf/1707.09700v2.pdf)
+* 论文: [ICCV 2017 利用物体、短语和区域描述生成场景图片](https://arxiv.org/pdf/1707.09700v2.pdf)
 
-* Best Method and Code: [MSDN](https://github.com/yikang-li/MSDN)
+* 最佳方法和代码: [MSDN](https://github.com/yikang-li/MSDN)
 
-* Last Update: 2019-02-27
+* 最近更新: 2019-02-27
 
