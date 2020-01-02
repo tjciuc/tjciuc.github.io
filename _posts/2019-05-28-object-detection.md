@@ -1,6 +1,6 @@
 ---
 path: '/stuff/'
-title: 'Object Detection 物体识别'
+title: 'Object Detection'
 type: 'COMPUTER_VISION'
 
 layout: nil

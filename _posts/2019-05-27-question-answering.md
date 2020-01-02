@@ -1,6 +1,6 @@
 ---
 path: '/stuff/'
-title: 'Question Answering 智能问答'
+title: 'Question Answering'
 type: 'COMPUTER_VISION'
 
 layout: nil

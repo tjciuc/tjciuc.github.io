@@ -1,6 +1,6 @@
 ---
 path: '/stuff/'
-title: 'Semantic Segmentation 语义分割'
+title: 'Semantic Segmentation'
 type: 'COMPUTER_VISION'
 
 layout: nil

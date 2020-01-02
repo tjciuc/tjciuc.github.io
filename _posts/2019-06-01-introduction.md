@@ -1,5 +1,5 @@
 ---
-title: 'Introduction 介绍'
+title: 'Introduction'
 
 layout: nil
 ---

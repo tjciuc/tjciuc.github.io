@@ -1,6 +1,6 @@
 ---
 path: '/stuff/'
-title: 'Image Classification 图像分类'
+title: 'Image Classification'
 type: 'COMPUTER_VISION'
 
 layout: nil
