@@ -23,7 +23,6 @@ layout: nil
 
 * 最近更新: 2019-05-16
 
-
 ### Cityscapes
 
 * Paper: [ECCV 2018 Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation](https://arxiv.org/pdf/1802.02611v3.pdf)
@@ -121,4 +120,3 @@ layout: nil
 * 最佳方法和代码 [MinkowskiNet](https://github.com/StanfordVL/MinkowskiEngine)
 
 * 最近更新: 2019-06-06
-
